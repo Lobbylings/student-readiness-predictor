@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block page_title %}Quick Pre-Test{% endblock %}
+
+{% block content %}
+<div class="card glass-card fade-up">
+    <h2>Quick Pre-Test</h2>
+    <p class="section-intro">
+        Answer these short questions to help the system measure immediate topic readiness.
+    </p>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    <form method="POST" class="form-stack">
+        <div class="question-card">
+            <label>1. Which of these best describes effective exam preparation?</label>
+            <select name="q1" required>
+                <option value="">Select</option>
+                <option value="a">Reading only on the exam day</option>
+                <option value="b">Consistent study and revision over time</option>
+                <option value="c">Skipping difficult topics</option>
+                <option value="d">Depending only on luck</option>
+            </select>
+        </div>
+
+        <div class="question-card">
+            <label>2. What is the best way to improve understanding of difficult topics?</label>
+            <select name="q2" required>
+                <option value="">Select</option>
+                <option value="a">Ignore them</option>
+                <option value="b">Wait until the exam day</option>
+                <option value="c">Review them and seek clarification</option>
+                <option value="d">Memorize without understanding</option>
+            </select>
+        </div>
+
+        <div class="question-card">
+            <label>3. Why is practicing past questions useful?</label>
+            <select name="q3" required>
+                <option value="">Select</option>
+                <option value="a">It helps you understand question patterns</option>
+                <option value="b">It wastes time</option>
+                <option value="c">It replaces revision completely</option>
+                <option value="d">It is only useful after exams</option>
+            </select>
+        </div>
+
+        <div class="question-card">
+            <label>4. What does poor lecture attendance usually affect?</label>
+            <select name="q4" required>
+                <option value="">Select</option>
+                <option value="a">Nothing important</option>
+                <option value="b">Understanding and exam readiness</option>
+                <option value="c">Only handwriting</option>
+                <option value="d">Only class seating position</option>
+            </select>
+        </div>
+
+        <div class="question-card">
+            <label>5. Which option best supports exam success?</label>
+            <select name="q5" required>
+                <option value="">Select</option>
+                <option value="a">Studying randomly without a plan</option>
+                <option value="b">Missing lectures but hoping for the best</option>
+                <option value="c">Depending only on classmates</option>
+                <option value="d">Having a study plan, revision, and practice</option>
+            </select>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn">Continue</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

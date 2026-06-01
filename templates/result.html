@@ -1,0 +1,319 @@
+{% extends "base.html" %}
+
+{% block page_title %}Prediction Result{% endblock %}
+
+{% block content %}
+
+<div class="card glass-card fade-up">
+
+    <h2>Prediction Result</h2>
+
+    <!-- RESULT SUMMARY -->
+    <div class="result-box">
+
+        <h3>
+            Prediction:
+
+            {% if prediction_text == "Ready" %}
+                <span class="status-badge ready-badge">
+                    {{ prediction_text }}
+                </span>
+            {% else %}
+                <span class="status-badge risk-badge">
+                    {{ prediction_text }}
+                </span>
+            {% endif %}
+        </h3>
+
+        <p>
+            <strong>Confidence Score:</strong>
+            {{ confidence_score }}
+        </p>
+
+        <!-- CONFIDENCE BAR -->
+        <div class="confidence-wrapper">
+
+            {% if confidence_score is string %}
+                {% set score = confidence_score.replace('%', '') | float %}
+            {% else %}
+                {% set score = confidence_score | float %}
+            {% endif %}
+
+            <div class="confidence-bar">
+
+                {% if prediction_text == "Ready" %}
+
+                    <div class="confidence-fill ready-fill"
+                         style="width: {{ score }}%;">
+                    </div>
+
+                {% else %}
+
+                    <div class="confidence-fill risk-fill"
+                         style="width: {{ score }}%;">
+                    </div>
+
+                {% endif %}
+
+            </div>
+
+        </div>
+
+        <p>
+            <strong>Interpretation:</strong>
+            {{ interpretation }}
+        </p>
+
+        <p>
+            <strong>Overall Insight:</strong>
+            {{ overall_insight }}
+        </p>
+
+    </div>
+
+    <!-- QUIZ PERFORMANCE -->
+    {% if quiz_score is not none %}
+
+    <div class="section">
+
+        <h3>Quiz Performance</h3>
+
+        <div class="info-grid">
+
+            <div class="info-card">
+                <strong>Quiz Score:</strong>
+                {{ quiz_score }}%
+            </div>
+
+            <div class="info-card">
+
+                <strong>Status:</strong>
+
+                {% if quiz_score >= 70 %}
+
+                    <span style="color: green;">
+                        Strong understanding detected
+                    </span>
+
+                {% elif quiz_score >= 40 %}
+
+                    <span style="color: orange;">
+                        Moderate understanding detected
+                    </span>
+
+                {% else %}
+
+                    <span style="color: red;">
+                        Weak understanding detected
+                    </span>
+
+                {% endif %}
+
+            </div>
+
+        </div>
+
+    </div>
+
+    {% endif %}
+
+    <!-- QUIZ ANALYSIS -->
+    {% if quiz_analysis %}
+
+    <div class="section">
+
+        <h3>Quiz Performance Insight</h3>
+
+        <div class="analysis-box" style="white-space: pre-line;">
+
+            {{ quiz_analysis }}
+
+        </div>
+
+    </div>
+
+    {% endif %}
+
+    <!-- CONFIDENCE GAP -->
+    {% if confidence_gap_message %}
+
+    <div class="section">
+
+        <h3>Confidence vs Actual Performance</h3>
+
+        <div class="analysis-box">
+
+            {{ confidence_gap_message }}
+
+        </div>
+
+    </div>
+
+    {% endif %}
+
+    <!-- STUDENT INFO -->
+    <div class="section">
+
+        <h3>Student Information</h3>
+
+        <div class="info-grid">
+
+            <div>
+                <strong>Name:</strong>
+                {{ student_info.full_name }}
+            </div>
+
+            <div>
+                <strong>Matric Number:</strong>
+                {{ student_info.matric_number }}
+            </div>
+
+            <div>
+                <strong>Department:</strong>
+                {{ student_info.department }}
+            </div>
+
+            <div>
+                <strong>Level:</strong>
+                {{ student_info.level }}
+            </div>
+
+            <div>
+                <strong>Course Code:</strong>
+                {{ student_info.course_code }}
+            </div>
+
+            <div>
+                <strong>Course Title:</strong>
+                {{ student_info.course_title }}
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ACADEMIC INPUTS -->
+    <div class="section">
+
+        <h3>Academic Inputs</h3>
+
+        <div class="info-grid">
+
+            <div>
+                <strong>Study Hours Per Week:</strong>
+                {{ academic_inputs.studytime }}
+            </div>
+
+            <div>
+                <strong>Previous Failures:</strong>
+                {{ academic_inputs.failures }}
+            </div>
+
+            <div>
+                <strong>Missed Lectures (Out of 10):</strong>
+                {{ academic_inputs.absences }}
+            </div>
+
+            <div>
+                <strong>1st Test Score:</strong>
+                {{ academic_inputs.g1 }}
+            </div>
+
+            <div>
+                <strong>2nd Test Score:</strong>
+                {{ academic_inputs.g2 }}
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- READINESS ANSWERS -->
+    <div class="section">
+
+        <h3>Readiness Question Summary</h3>
+
+        <div class="info-grid">
+
+            <div>
+                <strong>Confidence Level:</strong>
+                {{ readiness_answers.confidence or "Not provided" }}
+            </div>
+
+            <div>
+                <strong>Revision Status:</strong>
+                {{ readiness_answers.revision or "Not provided" }}
+            </div>
+
+            <div>
+                <strong>Past Questions Practice:</strong>
+                {{ readiness_answers.past_questions or "Not provided" }}
+            </div>
+
+            <div>
+                <strong>Topic Understanding:</strong>
+                {{ readiness_answers.understanding or "Not provided" }}
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- FACTORS -->
+    {% if factors %}
+
+    <div class="section">
+
+        <h3>Top Factors Affecting Prediction</h3>
+
+        <div class="styled-list">
+
+            {% for factor in factors %}
+
+                <div class="factor-card">
+                    {{ factor }}
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+    {% endif %}
+
+    <!-- RECOMMENDATIONS -->
+    {% if recommendations %}
+
+    <div class="section">
+
+        <h3>Recommendations</h3>
+
+        <div class="styled-list recommendation-list">
+
+            {% for item in recommendations %}
+
+                <div class="recommendation-card">
+                    {{ item }}
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+    {% endif %}
+
+    <!-- BUTTON -->
+    <div class="section button-row">
+
+        <a href="{{ url_for('reset') }}" class="btn">
+            Start New Assessment
+        </a>
+
+    </div>
+
+</div>
+
+{% endblock %}

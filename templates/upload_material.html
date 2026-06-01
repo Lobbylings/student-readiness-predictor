@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block page_title %}Upload Course Material{% endblock %}
+
+{% block content %}
+<div class="card glass-card fade-up">
+    <h2>Upload Course Material</h2>
+    <p>
+        Upload a course outline, lecture note, class handout, or topic document.
+        The system will generate a quiz from it and use your performance as part
+        of the final readiness assessment.
+    </p>
+
+    <div class="upload-info-grid">
+        <div class="note">
+            <strong>Accepted formats:</strong> PDF, DOCX, TXT
+        </div>
+        <div class="note">
+            <strong>Purpose:</strong> Generate quiz and test actual understanding
+        </div>
+    </div>
+
+    <form method="POST" enctype="multipart/form-data">
+    <label for="file">Choose course material</label>
+    <input type="file" name="file" id="file" required>
+    <button type="submit" class="btn">Upload and Generate Quiz</button>
+    </form>
+</div>
+{% endblock %}

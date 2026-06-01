@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Answers Submitted</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f6f8fb;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .answer-box {
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #fafafa;
+        }
+
+        .question {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .answer {
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .success {
+            color: green;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Quiz Answers Submitted</h2>
+        <p class="success">Your answers have been captured successfully.</p>
+
+        {% for item in submitted_answers %}
+            <div class="answer-box">
+                <div class="question">Question {{ item.id }}: {{ item.question }}</div>
+                <div class="answer">{{ item.answer }}</div>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

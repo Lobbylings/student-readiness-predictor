@@ -1,0 +1,74 @@
+{% extends "auth_base.html" %}
+
+{% block content %}
+<div class="auth-card auth-animate">
+
+    <div class="auth-brand">
+        <img src="{{ url_for('static', filename='srp-logo.svg') }}" alt="SRP Logo" class="auth-logo">
+
+        <p class="auth-label">
+            Secure Academic Access
+        </p>
+
+        <h1>Welcome Back</h1>
+
+        <p>
+            Log in to continue your student readiness assessment workflow.
+        </p>
+    </div>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    <form method="POST" action="{{ url_for('login') }}" class="auth-form">
+
+        <label>Email or Matric Number</label>
+
+        <input
+            type="text"
+            name="email"
+            placeholder="Enter email or matric number"
+            required
+        >
+
+        <label>Password</label>
+
+        <div class="password-field">
+
+            <input
+                type="password"
+                id="loginPassword"
+                name="password"
+                placeholder="Enter password"
+                required
+            >
+
+            <button
+                type="button"
+                class="password-toggle"
+                onclick="togglePassword('loginPassword', this)"
+            >
+                Show
+            </button>
+
+        </div>
+
+        <button type="submit" class="btn btn-full">
+            Login
+        </button>
+
+    </form>
+
+    <div class="auth-links">
+        <span>Don’t have an account?</span>
+
+        <a href="{{ url_for('register') }}">
+            Create one
+        </a>
+    </div>
+
+
+
+</div>
+{% endblock %}

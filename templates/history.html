@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block page_title %}Assessment History{% endblock %}
+
+{% block content %}
+<div class="card glass-card fade-up">
+    <h2>Assessment History</h2>
+
+    <form method="GET" action="{{ url_for('history') }}" class="filter-form">
+        <input
+            type="text"
+            name="q"
+            placeholder="Search by name, matric number, or course code"
+            value="{{ query }}"
+        >
+
+        <select name="prediction">
+            <option value="">All Predictions</option>
+            <option value="Ready" {% if prediction_filter == "Ready" %}selected{% endif %}>Ready</option>
+            <option value="At Risk" {% if prediction_filter == "At Risk" %}selected{% endif %}>At Risk</option>
+        </select>
+
+        <button type="submit" class="btn">Search</button>
+        <a href="{{ url_for('history') }}" class="btn btn-secondary">Reset Filter</a>
+        <a href="{{ url_for('export_history', q=query, prediction=prediction_filter) }}" class="btn btn-accent">Export Predictions</a>
+    </form>
+
+    {% if assessments %}
+        <div class="history-table-wrapper">
+            <table class="history-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Matric Number</th>
+                        <th>Course Code</th>
+                        <th>Prediction</th>
+                        <th>Confidence</th>
+                        <th>Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for row in assessments %}
+                    <tr>
+                        <td>{{ loop.index }}</td>
+
+                        <td>
+                            <a href="{{ url_for('assessment_detail', assessment_id=row.id) }}" class="history-link">
+                                {{ row.full_name }}
+                            </a>
+                        </td>
+
+                        <td>{{ row.matric_number }}</td>
+                        <td>{{ row.course_code }}</td>
+
+                        <td>
+                            {% if row.prediction_text == "Ready" %}
+                                <span class="status-badge ready-badge">{{ row.prediction_text }}</span>
+                            {% else %}
+                                <span class="status-badge risk-badge">{{ row.prediction_text }}</span>
+                            {% endif %}
+                        </td>
+
+                        <td>{{ row.confidence_score }}</td>
+                        <td>{{ row.created_at }}</td>
+
+                        <td class="action-cell">
+                            <a href="{{ url_for('assessment_detail', assessment_id=row.id) }}" class="btn btn-secondary">
+                                View
+                            </a>
+
+                            <form method="POST"
+                                  action="{{ url_for('delete_assessment', assessment_id=row.id) }}"
+                                  onsubmit="return confirm('Delete this assessment record?');"
+                                  style="display:inline;">
+                                <button type="submit" class="btn btn-secondary">
+                                    Delete
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p>No assessment records found yet.</p>
+    {% endif %}
+</div>
+
+<style>
+.history-link {
+    color: #1f3b77;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.history-link:hover {
+    text-decoration: underline;
+}
+
+.action-cell {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+</style>
+{% endblock %}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Readiness Predictor</title>
+</head>
+<body>
+    <h1>Student Readiness Predictor</h1>
+
+    <form action="/predict" method="post">
+        <label>Study Time:</label>
+        <input type="number" name="studytime" required><br><br>
+
+        <label>Failures:</label>
+        <input type="number" name="failures" required><br><br>
+
+        <label>Absences:</label>
+        <input type="number" name="absences" required><br><br>
+
+        <label>G1:</label>
+        <input type="number" name="G1" required><br><br>
+
+        <label>G2:</label>
+        <input type="number" name="G2" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>

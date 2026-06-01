@@ -1,0 +1,1633 @@
+400 Level Course - CSC 417 – Project Management  @ Crawford University  
+1 
+ CSC417  INTORDUCTION TO PROJECT MANAGEMENT   3 E 
+ 
+Course Outlines  
+• Introduction to Project Management  
+• Technology to Project Management  
+• Project Scheduling  
+• Risk Management  
+• Change Management  
+• Leadership and Ethics in Project  
+• Project Implementation  
+• Closure and Evaluation  
+ 
+Topic One:  
+WHAT IS PROJECT?  
+A project is “a temporary endeavor undertaken to create a unique product, service, or result.”  Project in 
+general refers to a new endeavor with specific objective and varies so widely that it is  very difficult to 
+precisely define it  Project is a unique process, consist of a set of coordinated and controlled activities with  
+start and finish dates, undertaken to achieve an objective confirming to specific requirements,  including the 
+constraints of time cost and resource.  
+ 
+A project is an activity that : 
+• is temporary having a start and  end date  
+• is unique  
+• brings about change  
+• has unknown elements, which  therefore create risk  
+• Generally projects are formed to solve  a problem or take advantage of an  opportunity.  
+• Business as usual activities can often be  mistaken for projects.   
+• Generally it is the uniqueness of the  activity that is the deciding factor – do we do this every year? If so, 
+then it is  not truly a project – although you can  use project methods to get it done.  
+ 
+EXAMPLES OF IT PROJECTS  
+Projects can be large or small and involve one person or thousands of people. They can be done in one day 
+or take years to complete. As described earlier, IT projects involve using hardware, software, and networks 
+to create a product, service, or result. Examples of IT projects include the following:  
+A large network of healthcare providers updates its information systems and procedures to reduce hospital 
+acquired diseases.  
+• A team of students creates a smartphone application and sells it online.  
+• A company develops a driverless car.  
+• A college upgrades its technology infrastructure to provide wireless Internet access across the whole 
+campus as well as online access to all academic and student service information.  
+• A company implements a new system to increase sales force productivity and customer relationship 
+management that will work on various laptops, smartphones, and tablets.  
+• A television network implements a system to allow viewers to vote for contestants and provide other 
+feedback on programs via social media sites.  
+• A government group develops a system to track child immunizations.  
+• A large group of volunteers from organizations throughout the world develops standards for 
+environmentally friendly or green IT.  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+2 
+ • A global bank acquires other financial institutions and needs to consolidate systems and procedures.  
+• Government regulations require monitoring of pollutants in air and water.  
+• A multinational firm decides to consolidate its information systems into an integrated enterprise resource 
+management approach.  
+ 
+WHY DO PROJECT FAIL?  
+1. Poor project and program  management discipline  
+2. Lack of executive -level support  
+3. Wrong team members  
+4. Poor communication  
+5. No measures for evaluating the  success of the project  
+6. No risk management  
+7. Inability to manage change  
+ 
+PROJECT CHARACTERISTICS  
+Despite above diversities, projects share the following common characteristics.  
+✓  Unique in nature.  
+✓  Have definite objectives (goals) to achieve.  
+✓  Requires set of resources.  
+✓  Have a specific time frame for completion with a definite start and finish.  
+✓  Involves risk and uncertainty.  
+✓  Requires cross -functional teams and interdisciplinary approach  
+✓ A project is temporary  
+✓ A project drives change and enables value creation  
+✓ A project is developed using progressive elaboration.  
+✓ A project requires resources, often from various areas  
+✓ A project should have a primary customer or sponsor.  
+ 
+PROJECT SUCCESS /BENEFITS  
+1. The project met scope, time, and cost goals  
+2. The project satisfied the customer/sponsor  
+3. The results of the project met its main objective, such as making or saving a certain amount of 
+money, providing a good return on investment, or simply making the sponsors happy  
+ 
+PROJECT CONSTRAINTS  
+1. Scope : What work will be done as part of the project? What unique product, service, or result does 
+the customer or sponsor expect from the project? How will the scope be verified?  
+2.  Time : How long should it take to complete the project? What is the project’s schedule? How will the 
+team track actual schedule performance? Who can approve changes to the schedule?  
+3.  Cost: What should it cost to complete the project? What is the project’s budget? How will costs be 
+tracked? Who can authorize changes to the budget?  
+• Project scope – Have all the project  requirements (i.e., deliverables) been  completed?  
+• Project cost – Is the cost of the project  close to the amount the customer has  agreed to pay?  
+• Schedule – Was the project completed  on time?  
+• Customer satisfaction – Is the customer  happy with the quality of the project   
+ 
+Successful project  management means  meeting all three  goals (scope, time,  and cost) —and satisfying the 
+project’s  sponsor  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+3 
+  
+WHO IS PROJECT MANAGER?  
+Project Managers are essentially jugglers. They must make  sure that everything keeps to task, that potential 
+issues are  quickly eliminated and the project is delivered on time, all the  while making sure everyone knows 
+what is happening and  the project quality and budget are acceptable. Specifically  they:  
+✓ direct all activities required to successfully meet the project objectives  
+✓ manage risk – scanning ahead for potential issues and resolving them before they become  a problem  
+✓ solve problems - recommending alternative approaches to problems that arise and providing 
+guidance to the Project Sponsor  
+✓ track and report project progress  
+✓ communicate to all stakeholders in the project  
+ 
+A project manager must:  
+A person with a diverse set of skills – management, leadership, technical, conflict  management, and 
+customer relationship –who is responsible for:  
+– initiating,  
+– planning,  
+– executing,  
+– controlling,  
+– monitoring,  
+– and closing down a project.  
+ 
+A program manager : 
+• Provides leadership and direction for the project managers heading  the projects within a program.  
+• It also coordinate the efforts of project teams, functional groups, suppliers, and operations staff 
+supporting the projects to ensure that products and processes are im plemented to maximize benefits.  
+• They are responsible for more than the delivery of project results; they are change agents responsible 
+for the success of products and processes developed by those projects.  
+• They often have review meetings with all their project managers to share important information and 
+coordinate important aspects of each project. Many program  
+• They managers worked as project managers earlier in their careers, and they enjoy sharing their 
+wisdom and expertise with their project managers. Effective program managers  
+• They recognize that managing a program is much more complex than managing a single project.  
+• They recognize that technical and project management skills are not enough —program managers 
+must also possess strong business knowledge, leadership capabilities, and communication skills.  
+ 
+SIX TRAITS OF HIGHLY EFFECTIVE PROJECT MANAGERS AS FOLLOWS:  
+1. Be a strategic business partner.  
+2. Encourage and recognize valuable contributions.  
+3. Respect and motivate stakeholders.  
+4. Be fully vested in success.  
+5. Stress integrity and accountability  
+6. Work in the gray/Be able to deal with ambiguity.  
+ 
+ROLES AND RESPONSIBILITIES OF PROJECT MANAGER  
+The basic role & Responsibility of a Project manager are as under:  
+1. Organize and implement diverse and scattered activities to achieve time, cost and  performance goals.  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+4 
+ 2. Develop project execution plan.  
+3. He should inculcate enthusiasm, team spirit, confi dence and reputations for excel lence.  
+4. Develop systems and procedure for accomplishment of project objectives.  
+5. Direct, coordinate and control the project activities.  
+6. Guiding and Problem solving.  
+7. Satisfaction of customers, government and public.  
+8. He should be an entrepreneur.  
+ 
+WHAT IS PROJECT MANAGEMENT?   
+Project management is “the application of knowledge, skills, tools, and techniques to  project activities to 
+meet project requirements.  Project management is the discipline of organizing and managing resources in 
+such a way  that these resources deliver all the work required to complete a project within defined scope,  
+time, and cost constraints   
+ 
+Project management is a tool of management for planning and control.  The objective of  which has been 
+defined as an attempt to make the most efficient and effectiv e use of re sources, viz.: manpower, equipment, 
+facilities, material s, money, technology and informa tion, so that the organization’s objectives and goals can 
+be achieved within budget, on sched ule and at the desired performance/technology level, while adhering to 
+the ever changing  environmental input factors, like legal, social, political, economical and technological . 
+ 
+Project management can be defined as the planning, organizing, directing and controlling  of company 
+resources for a relatively short -term objective t hat has been established to com plete specific goals and 
+objectives.  
+ 
+PROJECT STAKEHOLDERS   
+Stakeholders are the people involved in or affected by project activities, and include  the project sponsor, 
+project team, support staff, customers, users, suppliers, and even  opponents of the project  
+ 
+KEY ELEMENTS OF PROJECT MANAGEMENT  
+• Scope  
+• Time  
+• Cost 
+• Resource  
+ 
+(1) Scope  
+This is your project’s DNA – a crystal -clear understanding of what’s included (and excluded). It’s more like 
+the boundary of the project. It outlines what will be delivered, detailing the tasks, deliverables, and 
+boundaries.  Defining the scope involves understanding the project’s objectives and breaking them down into 
+manageable tasks.   A well -managed scope is crucial to avoid scope creep that can inflate costs and 
+deadlines.  
+ 
+(2)  Time  
+A project timeline is a schedule of activities, milestones, and deliverables. It’s a visual representation, often 
+in the form of a Gantt chart that helps everyone understand the sequence of tasks and their 
+dependencies.  Developing a timeline requires estimating the duration of tasks, sequencing them, and 
+allocating resources. It includes several steps, including – Identifying tasks & dependencies: List all the 
+tasks involved in the project and identify any dependencies between them.  Estimate task durations: For each 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+5 
+ task, estimate how long it will take to complete, considering its complexity, the skills of the assigned 
+resource, and potential risks.  
+ 
+Sequencing & scheduling: Use your task list and dependencies to determine the order in which tasks need to 
+be completed. There might be some flexibility, so consider factors like resource availability and task 
+criticality when creating your schedule.  
+Read More: How to Build a Project Timeline in 6 Simple Steps  
+ 
+(3) Budget  
+This involves predicting the costs associated with the project. It’s not just about the initial estimates but 
+about managing costs throughout the project lifecycle.  Estimate project costs meticulously, including labor, 
+materials, and potential contingencies. Track expenses throughout the project to identify deviations and 
+ensure you stay within budget.  One of the most common ways to manage budgets is to maintain a 
+spreadsheet. But, in my experience, that often becomes a tedious task for complex projects.  
+ 
+(4) Resource  
+Your project is only as strong as its team. And the team is only as strong as the available resources are.   
+Resource allocation involves assigning the most suitable resources to the right tasks at the right time. It 
+involves balancing the availability of team members, equipment, and materials with the project’s needs, 
+ensuring that resources are used efficiently. Proper resource management also ensures everyone’s workload 
+is balanced.  
+ 
+(5) Procurement Management  
+As the name suggests, procurement management is the process of acquiring goods and services from 
+external sources.  For a manufacturing project, procurement management would include negotiating with 
+suppliers for raw materials, ensuring timely delivery, and managing contracts to ensure compliance with 
+project timelines and budgets.  
+ 
+ 
+ 
+PROJECT MANAGEMENT TOOLS AND TECHNIQUES  
+Some of the tools and techniques used in project are:  
+400 Level Course - CSC 417 – Project Management  @ Crawford University  
+6 
+ • Data gathering: benchmarking, brainstorming, check sheets, checklists,  focus groups, interviews, market 
+research, questionnaires and surveys, and  statistical sampling  
+• Data analysis: alternatives analysis, assessment of other risk parameters,  assumption and constraint 
+analysis, cost of quality, cost -benefit analysis,  decision tree analysis, document analysis, earned value 
+analysis, and several  other tools fit in this category  
+ 
+TOOLS & TECHNIQUES FOR PROJECT MANAGEMENT  
+Following are the important tools and techniques for effective project management.  
+1. Project selection techniques.  
+(a) Cost -benefit analysis.  
+(b) Risk and sensitivity analysis.  
+ 
+2. Project implementation (execution) planning techniques.  
+(a) Work break down structure (WBS)  
+(b) Project implementation plan.  
+(c) Project responsibility matrix.  
+(d) Project management manuals.  
+ 
+3. Project scheduling techniques.  
+(a) Line of Balance (LOB)  
+(b) Bar Charts  
+(c) Network Techniques (CPM/PERT)  
+ 
+4. Project monitoring techniques.  
+(a) Progress measurement technique.  
+(b) Performance monitoring technique.  
+(c) Updating, reviewing and reporting technique.  
+ 
+5. Project cost and productivity techniques  
+(a) Value engineering.  
+(b) Budgetary control.  
+(c) Cost/WBS.  
+ 
+6. Project communication techniques.  
+(a) Computerized information system.  
+(b) Control room.  
+(c) MIS  
+  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+7 
+ COMMON PROJECT MANAGEMENT TOOLS AND TECHNIQUES BY KNOWLEDGE AREA  
+ 
+ 
+ 
+ 
+400 Level Course - CSC 417 – Project Management  @ Crawford University  
+8 
+  
+ 
+ 
+• Data representation: affinity diagrams, cause -and-effect diagrams, control  charts, flow charts, hierarchical 
+charts, histograms, logical data models,  matrix diagrams, matrix -based charts, mind mapping, probability 
+and impact matrix, scatter diagrams, stakeholder engagement assessment matrix,  stakeholder  
+mapping/representation, and text -oriented formats  
+• Decision making: multi -criteria decision analysis and voting  • Communication: feedback and presentations  
+• Interpersonal and team skills: active listening, communication styles  assessment, conflict management, 
+cultural awareness, decision making,  emotional intelligence, facilitation, influencing, leadership, meeting  
+management, motivation, negotiation, networking, nominal group,  observation/conversation, political 
+awareness, team building  
+• Ungrouped: several other tools fit in this category  
+ 
+PROGRAM AND PROJECT PORTFOLIO MANAGEMENT  
+WHAT IS A PROGRAM ? 
+A program is “a group of related projects, subsidiary programs, and program activities  managed in a 
+coordinated manner to obtain benefits and control not available from  managing them individually  
+ 
+The following are examples of common programs in the  IT field.  
+400 Level Course - CSC 417 – Project Management  @ Crawford University  
+9 
+ • Infrastructure: An IT department often has a program for IT infrastructure  projects. This program could 
+encompass several projects, such as providing  more wireless Internet access, upgrading hardware and 
+software, enhancing  computer security, and developing and maintaining corporate standards for IT.  
+• Applications development: This program could include several projects, such  as updating an enterprise 
+resource planning (ERP) system, purchasing a new  off-the-shelf billing system, or developing a new 
+capability for a customer  relationship management system.  
+• User support: In addition to the many operational tasks related to user  support, many IT departments have 
+several projects to support users. For  example, a project might provide a better e -mail system or develop 
+technical  training for users.  
+ 
+Topic Two:  
+IMPORTANCE OF LEADERSHIP SKILLS  
+1. Technical project management skills: Understanding the knowledge areas, process groups, and 
+project management tools and techniques fall into this category.  
+ 
+2. Strategic and business management skills: Topics include strategic planning and financial 
+management (described in more detail in Chapter 4), accounting, marketing, and other topics listed 
+in the previous section.  
+ 
+3. Leadership skills: Leadership and management are terms often used interchangeably, although there 
+are differences. Generally, a leader focuses on long -term goals and big -picture objectives, while 
+inspiring people to reach those goals. A manager often deals with the day -to-day details of meeting  
+specific goals. Some people say that, “Managers do things right, and leaders do the right things.” 
+“Leaders determine the vision, and managers achieve the vision.” “You lead people and manage 
+things.”  
+ 
+PMBOK® Guide – Sixth  Edition briefly describes the following Leadership styles:  
+1. Laissez -faire : Meaning “let go,” this hands -off approach lets teams determine their own goals and 
+how to achieve them.  
+ 
+2. Transactional : This management by exception approach focuses on achieving goals or compliance 
+by offering team members appropriate rewards and punishments.  
+ 
+3. Servant leader : People using this approach focus on relationships and community first and 
+leadership is secondary.  
+ 
+4. Transformational : By working with others to identify needed changes, these leaders empower others 
+and guide changes through inspiration.  
+ 
+5. Charismatic : These people can inspire others based on their enthusiasm and confidence.  
+ 
+6. Interactional : This leadership style is a combination of transactional, transformational, and 
+charismatic.  
+ 
+Daniel Goleman, author of Emotional Intelligence, also wrote a book called Primal Leadership, which 
+describes six different styles of leadership and situations where they are most appropriate:  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+10 
+ 1. Visionary : Needed when an organization needs a new direction, and the goal is to move people 
+toward a new set of shared dreams. The leader articulates where the group is going, but lets them 
+decide how to get there by being free to innovate, experiment, and take calculated risks.  
+2. Coaching : One -on-one style that focuses on developing individuals, showing them how to improve 
+their performance. This approach works best with workers who show initiative and request 
+assistance.  
+ 
+3. Affiliative : Emphasizes the importance of teamwork and creating harmony by connecting people to 
+each other. This approach is effective when trying to increase morale, improve communication, or 
+repair broken trust.  
+  
+4. Democratic : Focuses on people’s knowledge and skills and creates a commitment to reaching shared 
+goals. This leadership style works best when the leader needs the collective wisdom of the group to 
+decide on the best direction to take for the organization.  
+ 
+5. Pacesetting : Used to set high standards for performance. The leader wants work to be done better 
+and faster and expects everyone to put forth their best effort.  
+ 
+6. Commanding : Most often used, also called autocratic or military style leadership. This style is most 
+effective in a crisis or when a turnaround is needed.  
+ 
+ETHICS IN PROJECT MANAGEMENT  
+Ethics, loosely defined, is a set of principles that guides decision making based on  personal values of what is 
+considered right and wrong. Ethics guide us in making  these types of decisions   
+ 
+2.2.1 We make decisions and take actions based on the best interests of society,  public safety, and the 
+environment.  
+ 
+2.2.2 We accept only those assignments that are consistent with our background  experience, skills, and 
+qualifications.  
+ 
+2.2.3 We fulfill the commitments that we undertake —we do what we say we will do.   
+ 
+3.2.1 We inform ourselves about the norms and customs of others and avoid  engaging in behaviors they 
+might consider disrespectful.  
+ 
+3.2.2 We listen to others’ points of view, seeking to understand them.  
+ 
+3.2.3 We approach directly those persons with whom we have a conflict or  disagreement.  
+ 
+4.2.1 We demonstrate transparency in our decision -making process.  
+ 
+4.2.2 We constantly reexamine our impartiality and objectivity, taking corrective  action as appropriate.  
+ 
+4.3.1 We proactively and fully disclose any real or potential conflicts of interest to  appropriate stakeholders.  
+ 
+5.2.1 We earnestly seek to understand the truth.  
+ 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+11 
+ 5.2.2 We are truthful in our communications and in our conduct.  
+ 
+Project management software tools can be divided into three general  categories based on functionality and 
+price:  
+1. Low-end tools  
+2. Midrange tools  
+3. High -end tools  
+ 
+Topic Three:  
+INTRODUCTION TO CPM & PERT TECHNIQUE  
+Program Evaluation and Review Technique (PERT) and Critical Path Method (CPM) are two most widely 
+used techniques in project management. The objectives of project management can be described in terms of 
+a successful completion of project on time within the budgeted cost and adhering to technical specifications 
+which satisfy the end users. A project is any human undertaking with a clear beginning and a clear ending.  
+ 
+INTRODUCTION TO CRITICAL PATH METHOD (CPM  
+CPM is applicable to both large and small projects, taking from space programmes to  wedding or horse 
+shows. It is widely recognized and is the most versatile and potent  management planning technique.  
+ 
+CPM is a technique, used for planning and controlling the most logical and economic  sequence of operations 
+for accomplishing a project. The projec t is analyzed into dif ferent activities whose relationship, as in PERT, 
+are shown on the network diagram.  The network is then utilized for optimising the use of resources, progress 
+and control.  
+ 
+Introduction to Programme Evaluation Review Technique (PERT)  
+PERT was first used in 1957 as a method of planning and controlling the Polaris Mis sile Programme by 
+Booz, Allen and Hamilton together with U.S. Nawal department.  The aim was to finish the project two years 
+in advance. PERT describes basic network  technique which includes planning, monitoring and control of 
+projects.  
+ 
+PROGRAMME EVALUATION AND REVIEW TECHNIQUE (PERT)  
+The PERT technique is a method of minimizing trouble spots, programme bottlenecks, delays  and 
+interruptions by determining critical activities before they occur so that various activities in  the project can 
+be coordinated  
+ 
+• PERT is a very important technique in the field o f project management. It is com monly employed for 
+conducting the initial review of a project.  
+• PERT, actually, developed as a research and development planning tool where activity  timings could not 
+be estimated with enough certainty.  
+• PERT can be employed at those places where a project can not be easily defined in  terms of time or 
+resources required.  
+• PERT is mainly concerned with event and thus it is an event -oriented system.  
+• The basic tools used in PERT technique is the network or flow plan. Network consists  of series of related 
+events and activities  
+ 
+DIFFERENCE BETWEEN PERT & CPM  
+There is not much difference between PERT & CPM. In  fact both were developed simul taneously and 
+independently for the similar requirements. The only difference lies in the  ‘event’ or ‘activity’ on which 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+12 
+ network is constructed. The ‘activity’ stands for the time -consuming parts of the project. It represents a job; 
+on the other hand, an ‘event’, also called  ‘node’ either beginning or an end of a job. The CPM analysis is 
+activity -oriented and PERT  is event -oriented.  
+ 
+1. The CPM is a kind of technique commonly known for its use in constructions project;  whereas PERT 
+mostly used in R & D projects like the projects considered being a  kind of non -repetitive nature.  
+ 
+2. Both techniques have different concept of working like CPM uses deterministic con cept for its work 
+whereas probabilistic concept is used by PERT.  
+3. Networking approach also varies in both techniques like CPM uses networking that  based upon activity 
+oriented; on contrary PERT uses networking that based on event.  
+ 
+4. In PERT technique, an estimation of time for different activities is not perfect and  accurate whereas in 
+CPM activities duration are estimated with the quality of accuracy.  
+ 
+5. Both of the techniques used for same purpose but the nature of their working is dif ferent and some can do 
+their work efficiently with CPM and some can do same with  PERT.  
+ 
+6. The most important thing to solute is to minimize time so that they can get good result  for their cost 
+factor. In PERT, time is said to be a controlling factor.  
+ 
+7. CPM has one -time estimate while PERT has three time estimates.  
+ 
+8. Unpredicted activities are managed with the help of Program Evaluation and Review  Technique (PERT), 
+whereas CPM is used for dealing those projects that have some  alarmed activities. These two techniques 
+said to be a key element for the management  of any project.  
+ 
+ADVANTAGES OF PERT  
+1. It determines the expected duration of activit ies and consequently of the project  duration.  
+ 
+2. It helps the management in handling the uncertainties involved in the project and thus  reduces the risk 
+element in the object.  
+ 
+3. In enables the management to make optimum allocation of limited resources.  
+ 
+4. It process for the right action, at the right point and the right times in the organization.  
+ 
+5. It determines the most economical schedule for fixed project duration.  
+ 
+DISADVANTAGES OF PERT  
+1. The time estimates to perform activities constitutes a major limitation of this tech nique. If the estimates 
+are not satisfactory then the network will be highly unrealistic.  
+ 
+2. The probability distribution of total time is assured to be normal, which in real life  situation may not be 
+true. 
+ 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+13 
+ 3. The simple PERT technique does not consider the resources required at various stages  of the project. If a 
+certain resource may be used to perform more than one activity  and at the same time, it can be used for only 
+one activity at a time, then the network  diagram will become infeasible.  
+ 
+4. Use of this technique for active control of a project requires frequent updating and  revision of PERT 
+calculations and this proves quite a costly affair  
+ 
+ADVANTAGES OF CPM  
+1. It helps in ascertaining the time schedule of activities having sequential relationships.  
+ 
+2. It makes the control function of the management.  
+ 
+3. It makes better and detail planning possible.  
+ 
+4. It identifies the most critical elements in the project. Thus, the management is kept  alert and prepared to 
+pay due attention to the critical activities of the project.  
+ 
+DISADVANTAGES OF CPM  
+1. CPM fails to incorporate statistical analysis in determining the time estimates.  
+ 
+2. It operates on the assumption that there is a precise known time that each activity in  the project will take. 
+It may not be true in reality.  
+ 
+3. It cannot be used as a controlling device since any change introduced will change the  entire structur e of 
+the network. Thus, CPM can not be used as a dynamic controlling  device.  
+ 
+PROJECT FORMULATION  
+Project Formulation is the processes of presenting a project idea in a  form in which it can be subjected to 
+comparative appraisals for the purpose of  determining in definitive terms the priority that should be attached 
+to a projec t under sever resource constraints.  Project Formulation involves the following  steps (Figure 1).  
+ 
+PROJECT FORMULATION  
+↓ 
+OPPORTUNITY STUDIES/Support Studies  
+↓ 
+IDENTIFICATION OF PRODUCT/SERVICE  
+↓ 
+PREFEASIBILITY STUDY  
+↓ 
+FEASIBILITY STUDY  
+(TECHNO ECONOMIC FEASIBILITY)  
+↓ 
+PROJECT APPRAISAL  
+↓ 
+DETAILED PROJECT REPORT  
+ 
+Figure 1.: Project Formulation –Schematic view  
+ 
+ 
+ 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+14 
+  
+OPPORTUNITY STUDIES  
+An opportunity study identifies investment opportunities and is normally undertaken at  macro level by 
+agencies involved in economic planning and development. In general opportunity  studies there are three 
+types of study – Area Study, sectoral and Sub -sectoral Studies and  Resource Based Studies. Opportunity 
+Studies and Support studies provide sound basis for project  identification.  
+ 
+PRE FEASIBILITY STUDIES / OPPORTUNITY STUDIES  
+A pre -feasibility study should be viewed as an intermediate stage between a project  opportunity study and a 
+detailed feasibility study, the difference being primarily the extent of  details of the information obtained. It 
+is the process of gathering facts and opinions pertaining to  the project. This information is then vetted for the 
+purpose of tentatively determining whether  the project idea is worth pursuing furthering. Pre feasibility 
+study lays stress on assessing  market potential, magnitude of investment, , technical feasibility, financial 
+analysis, risk analysis  etc. The breadth and depth of pre feasibility depend upon the time available and the 
+confidence  of the decision maker. Pre feasibility studies help in preparing a project profile for presentation  
+to various stakeholders including funding agencies to solicit their support to the project. It also  throws light 
+on aspects of the project that are critical in nature and necessitate further  investigation through functional 
+support studies.  
+ 
+FEASIBILITY STUDY  
+Feasibility Study forms the backbone of Project Formulation and presents  a balanced picture incorporating 
+all aspects of possible concern. The study  investigates practicalities, ways of achieving objectives, strategy 
+options,  methodology, and predict likely outcome, risk and the consequences of each  course of action. It 
+becomes the foundation on which project definition and  rationale will be based so that the quality is 
+reflected in subsequent project  activity.  A well conducted study provides a sound base for decisions,  
+clarifications of objectives, logical planning, minimal risk, and a successful cost  effective project. Assessing 
+feasibility of a proposal requires understanding of the  STEEP factors. These are as under Social, 
+Technological, Ecological, Economic,  and Political.  
+ 
+A feasibility study is not an end in itself but only a means to arrive at an investment  decision. The 
+preparation of a feasibility study report is often made difficulty by the number of  alternatives (regarding the 
+choice of technology, plant capacity, location, financing etc.) and  assumptions on which the decisions are 
+made. The project feasibility studies focus on   
+- Economic and Market Analysis  
+- Technical Analysis  
+- Market Analysis  
+- Financial Analysis  
+- Economic Benefits  
+- Project Risk and Uncertainty  
+- Management Aspects  
+ 
+PROJECT APPRAISAL  
+The project appraisal is the process of critical examination and analysis of the proposal in  totality. The 
+appraisal goes beyond the analysis presented in the feasibility report. At this stage,  if required compilation of 
+additional information and further analysis of project dimensions are  undertaken. At the end of the process 
+an appraisal note is prepared for facilitating decision on  the project implementation.  
+ 
+The appraisal process generally concentrates on the following aspects.  
+• Market Appraisal: Focusing on demand projections, adequacy of marketing  infrastructure and competence 
+of the key marketing personnel.  
+• Technical Appraisal: Covering product mix, Capacity, Process of manufacture  engineering know -how and 
+technical collaboration, Raw materials and consumables,  Location and site, Building, Plant and equipments, 
+Manpower requirements and Break -even point.  
+• Environmental Appraisal: Impact on land use and micro -environment, commitment of  natural resources, 
+and Government policy.  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+15 
+ • Financial Appraisal: Capital, rate of return, specifications, contingencies, cost  projection, capacity 
+utilization, and financing pattern.  
+• Economic Appraisal: Considered as a supportive appraisal it reviews economic rate of  return, effective rate 
+of protection and domestic resource cost.  
+• Managerial Appraisal: Focuses on promoters, organization structure, managerial  personnel, and HR 
+management.  
+• Social Cost Benefit Analysis (SCBA): Social Cost Benefit Analysis is a methodology  for evaluating 
+projects from the social point of view and focuses on social cost and  benefits of a project. There often tend 
+to differ from the costs incurred in monetary  terms and benefits earned in monetary terms by the project 
+SCBA may be based on  UNIDO method or the Little -Mirriles (L -M) approach. Under UNIDO method the 
+net benefits of the project are considered in terms of economic (efficiency) prices also  referred to as shadow 
+prices. As per the L -M approach the outputs and inputs of a  project are classified into (1) traded goods and 
+services (2) Non traded goods and  services; and (3) Labor. All over the world including India currently the 
+focus is  on Economic Rate of Return (ERR) based on SCBA assume importance in project  formulation and 
+investment decisions   
+ 
+DETAILED PROJECT REPORT (DPR)  
+Once the projects are appraised and the investment decisions are made a Detailed  Project Report (DPR) is 
+prepared. It provides all the relevant details including design drawings,  specifications, detailed cost 
+estimates etc. and this would act as a blue print for project  implementation.  
+ 
+PROJECT MANAGEMENT TECHNIQUES   
+These p roject management techniques can be  classified under two broad categories i.e., Bar Charts and 
+Networks.  
+ 
+Bar Charts  
+Bar charts are the pictorial representation of various tasks required to be performed for  accomplishment of 
+the project objectives. These charts have formed the basis of development of  many other project 
+management techniques.  
+ 
+Gantt Chart  
+Henry L Gantt (1861 – 1919) around 1917 developed a system of bar charts for scheduling  and reporting 
+progress of a project. These charts latter were known as Gantt Charts. It is a  pictorial representation 
+specifying the start and finish time for various tasks to be performed in a  project on a horizontal time -scale  
+ 
+Milestone Chart  
+Milestone chart is an improvement over the bar chart (Gantt chart) by introducing the  concept of milestone.  
+ 
+Networks  
+The network is a logical extension of Gantt’s milestone chart incorporating the  modifications so as to 
+illustrate interrelationship between and among all the milestones in an  entire project  
+ 
+PROJECT LIFE CYCLE  
+A project life cycle is a collection of project phases. Projects pass through these phases  from their start to 
+their completion. The PMBOK® Guide – Sixth Edition describes the  generic life cycle to include the 
+following four phases:  
+1. Starting the project  
+2. Organizing and preparing  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+16 
+ 3. Carrying out the work  
+4. Finishing the project  
+ 
+PRODUCT LIFE CYCLES  
+1. Predictive life cycle: The scope, schedule, and cost are determined early,  and changes to scope are 
+carefully managed. PMI also refers to predictive life  cycles as waterfall.   
+ 
+2. Iterative life cycle: The scope is determine d early, but time and cost esti mates are modified as the 
+understanding of the product increases. Iterations  are used to develop the product through a series of 
+repeated cycles to add to  the functionality of the product. This approach works best when there is a  high 
+degree of change and a low frequency of delivery.  
+ 
+3. Incremental life cycle: Deliverables are pro duced through a series of itera tions that add functionality 
+within a set time frame. The deliverable is not  complete until after the final iteration. This approach works 
+best when there  is a low degree of change and a high frequency of delivery.  
+ 
+4. Adaptive life cycle: Stakeholders define and approve the detailed scope  before the start of an iteration, 
+producing a useable product at the end of  each iteration. PMI also refers to adaptive life cycles as agile or 
+change - driven. This approach works best when there is a high degree of change and a  
+high frequency of delivery.  
+ 
+5. Hybrid life cycle: A combination of approaches is used based on the nature of the  work. For example, 
+some deliverables might have a low degree of change and low  frequency of delivery such as weekly 
+progress reports, a high degree of change  and a high frequency of delivery such as certain software features, 
+and so on.  
+ 
+Below are  brief descriptions of several predictive SDLC models.  
+ 
+• The waterfall life cycle model has well -defined, linear stages of systems analysis, design, construction, 
+testing, and support. This life cycle model assumes  that requirements will remain stable after they are 
+defined. The waterfall life  cycle model is used when risk must be tightly controlled and when changes  must 
+be restricted after the requirements are defined. The waterfall approach  is used in many large -scale systems 
+projects where complexity and cost  are so high that the more rigid steps of the approach help to ensure 
+careful  completion of all deliverables. The waterfall approach also makes sense for IT  projects that do not 
+involve software development, such as upgrading all the  routers and switches in a company to support VoIP 
+phones 
+ 
+• The spiral life cycle model was developed based on refinements of the water - fall model as applied to large 
+government software projects. It recognizes  the fact that most software is developed using an iterative or 
+spiral approach  rather than a linear approach. The project t eam is open to changes and revi sions later in the 
+project life cycle, and returns to the requirements phase to  more carefully clarify and design the revisions. 
+This approach is suitable for  projects in which changes can be incorporated with reasonable cost increases  
+or with acceptable time delays. Figure 2 -4 illustrates the differences between  the waterfall and spiral life 
+cycle models.  
+ 
+• The prototyping life cycle model is used for developing software prototypes  to clarify user requirements 
+for operational software. It requires heavy user  involvement, and developers use a model to generate 
+functional requirements  and physical design specifications simultaneously. Developers can throw away  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+17 
+ or keep prototypes, depending on the project. This approach is often used  in systems that involve a great 
+deal of user interface design, such as website  projects, in systems that automate previously manual 
+functions, or in systems  that change the nature of how something is done, such as mobile applications.  
+ 
+• The RAD life cycle model uses an approach in which developers work with  an evolving prototype. This 
+life cycle model a lso requires heavy user involve ment and helps produce systems quickly without sacrificing 
+quality. Devel opers use RAD tools such as CASE (computer -aided software engineering), JRP  (joint 
+requirements planning), and JAD (joint application design) to facilitate  rapid prototyping and code 
+generation. These tools are often used in reporting   
+ 
+ 
+ 
+PROJECT IMPLEMENTATION  
+Implementation is the realization of an application, execution of a plan, idea, model, design, specification, 
+standard, algorithm, policy, or the administration or management of a process or objective.  The term 
+‘implement ’ means to "put into effect" or "carry out." In project management, to implement a project means 
+executing tasks according to the predefined plan.  
+ 
+Project implementation is the phase where a project plan is put into action, turning strategies and designs 
+into real deliverables through coordinated tasks, resource management, and progress monitoring to achieve 
+objectives within scope, time, and budget. It bridges planning and completion, requiring clear 
+communication, risk management, and performance measurement to ensure tasks align with goals, 
+stakeholders are involved, and unexpected issues are handled effectively.  
+ 
+Topic Four : 
+PROJECT IMPLEMENTATION  
+Project implementation is a critical phase in project management where plans turn into reality. This stage 
+involves executing the strategies, deploying resources, and ensuring that objectives are met efficiently. 
+Without a proper implementation plan, even the best project ideas can fail.  
+ 
+400 Level Course - CSC 417 – Project Management  @ Crawford University  
+18 
+ Project implementation refers to the process of executing planned activities to achieve a project's objectives. 
+This phase includes mobilizing resources, managing tasks, and monitoring progress to ensure successful 
+project completion.  
+ 
+STEPS IN PROJECT IMPLEMENTATION  
+1. Planning the Implementation Process  
+A well -structured implementation plan is the foundation of a successful project. This includes:  
+✓ Defining clear goals  
+✓ Allocating resources  
+✓ Setting timelines  
+✓ Establishing risk management strategies  
+ 
+2. Assigning Responsibilities  
+An implementation project manager plays a crucial role in ensuring smooth execution. They delegate tasks, 
+monitor progress, and ensure project milestones are met.  
+ 
+3. Deploying Resources  
+The next step is mobilizing human, financial, and technological resources needed for the project. This 
+ensures that teams have the necessary tools to perform their tasks.  
+ 
+4. Executing the Plan  
+Now comes the action phase —where tasks are carried out as per the plan. The team follows predefined 
+processes while adapting to any necessary changes.  
+ 
+5. Monitoring and Controlling  
+Implementation is not just about execution; it’s also about tracking progress. This includes:  
+✓ Regular status updates  
+✓ Performance assessments  
+✓ Adjustments based on feedback  
+ 
+6. Closing the Project  
+Once all tasks have been implemented, a final evaluation takes place. The team ensures that all objectives 
+have been met before formally closing the project.  
+ 
+The Role of an Implementation Project Manager  
+An implementation project manager is responsible for overseeing the execution of a project. Their duties 
+include:  
+o Planning & Strategy : Developing the project implementation roadmap.  
+o Team Coordination : Assigning roles and ensuring smooth communication.  
+o Problem -Solving : Addressing challenges that arise during execution.  
+o Performance Monitoring : Evaluating progress to keep the project on track.  
+ 
+A skilled implementation project manager ensures that project goals are met within scope, time, and budget.  
+ 
+Organizational Transformation Implementation Project  
+Organizational transformation implementation projects involve large -scale changes, such as restructuring, 
+digital transformation, or process improvements. Successful implementation requires:  
+▪ Strong leadership  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+19 
+ ▪ Effective change management strategies  
+▪ Employee engagement  
+▪ Continuous monitoring and adaptation  
+ 
+An example of an organizational transformation implementation project is a company shifting from 
+traditional marketing to digital marketing. This requires new tools, strategies, and staff training, all of which 
+need proper implementation to succeed.  
+ 
+CHALLENGES IN PROJECT IMPLEMENTATION  
+Even with a solid plan, several challenges may arise during project implementation, such as:  
+o Scope Creep : Uncontrolled expansion of project requirements  
+o Resource Constraints : Lack of funds, time, or workforce  
+o Resistance to Change : Employees resisting new processes or technologies  
+o Communication Gaps : Poor coordination among teams  
+ 
+Topic Five:  
+RISK MANAGEMENT PROCESS IN PROJECT MANAGEMENT  
+Project risk management is the process of identifying, analyzing and responding to any risk that arises over 
+the life cycle of a project to help the project remain on track and meet its goal. Risk management isn’t 
+reactive only; it should be part of the planning process to figure out the risk that might happen in the project 
+and how to control that risk if it in fact occurs.  
+ 
+A risk is anything that could potentially impact your project’s timeline, performance or budget. Risks are 
+potentialities, and in a project management context, if they become realities, they then become classified as 
+“issues” that must be addressed with a risk response plan. So risk management, then, is the process of 
+identifying, categorizing, prioritizing and planning for risks before they become issues.  
+ 
+Risk management can mean different things on different types of projects. On large -scale projects, risk 
+management strategies might include extensive detailed planning for each risk to ensure mitigation 
+strategies are in place if project issues arise. For smaller projects, risk management might mean a simple, 
+prioritized list of high, medium and low -priority risks.  
+ 
+WHAT ARE POSITIVE RISKS & NEGATIVE RISKS IN PROJECT MANAGEMENT?  
+Risk can be either positive or negative, though most people assume risks are inherently the latter. Where 
+negative risk implies something unwanted that has the potential to irreparably damage a project, positive 
+risks are opportunities that can affect the project in beneficial ways.  
+ 
+Negative risks are part of your risk management plan, just as positive risks should be, but the difference is in 
+approach. You manage and account for known negative risks to neutralize their impact, but positive risks 
+can also be managed to take full advantage of them.  
+ 
+There are many examples of positive risks in projects: you could complete the project early, you could 
+acquire more customers than you accounted for, you could imagine how a delay in shipping might open up a 
+potential window for better marketing opportunities, etc. It’s important to note, though, that these definitions 
+are not etched in stone. Positive risk can quickly turn to negative risk and vice versa, so you must be sure to 
+plan for all eventualities with your team.  
+ 
+ 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+20 
+ RISK MANAGEMENT STATISTICS AND TRENDS  
+A large factor may be due to the digital transformation of organizations. More companies are adopting 
+advanced analytics, machine learning and AI to improve their risk management processes. As technology 
+increases, the risk of cybercrime increases. The global cost of cybercrime is expected to reach $13.28 trillion 
+by 2028.  
+ 
+As a result of these growing statistics, the role of a risk manager is also increasing in importance. This is the 
+direct result of factors such as the need for proactive risk management strategies, increased risk complexity 
+in the workplace and a general sense of interconnectedness between people and technology.  
+ 
+6 STEPS IN THE RISK MANAGEMENT PROCESS  
+So, how do you handle something as seemingly elusive as project risk management? You make a risk 
+management plan. It’s all about the process. Turn disadvantages into an advantage by following these six 
+steps.  
+ 
+1. Identify the Risk  
+You can’t resolve a risk if you don’t know what it is. There are many ways to identify risk. As you do go 
+through this step, you’ll want to collect the data in a risk register.  
+ 
+One way is brainstorming with your team, colleagues or stakeholders. Find the individuals with relevant 
+experience and set up interviews so you can gather the information you’ll need to both identify and resolve 
+the risks. Think of the many things that can go wrong. Note them. Do the same with historical data on past 
+projects. Now your list of potential risks has grown.  
+ 
+Make sure the risks are rooted in the cause of a problem. Basically, drill down to the root cause to see if the 
+risk is one that will have the kind of impact on your project that needs identifying. When trying to minimize 
+risk, it’s good to trust your intuition. This can point you to unlikely scenarios that you just assume couldn’t 
+happen. Use a risk breakdown structure process to weed out risks from non -risks.  
+ 
+2. Analyze the Risk  
+Analyzing risk is hard. There is never enough information you can gather. Of course, a lot of that data is 
+complex, but most industries have best practices, which can help you with your risk analysis. You might be 
+surprised to discover that your company already has a framework for this process.  
+ 
+When you assess project risk, you can ultimately and proactively address many impacts, such as avoiding 
+potential litigation, addressing regulatory issues, complying with new legislation, reducing your exposure 
+and minimizing impact.  
+ 
+So, how do you analyze risk in your project? Through qualitative and quantitative risk analysis, you can 
+determine how the risk is going to impact your schedule and budget.  
+ 
+Project management software helps you analyze risk by monitoring your project. Project  Manager takes that 
+one step further with real -time dashboards that display live data. Unlike other software tools, you don’t have 
+to set up our dashboard. It’s ready to give you a high -level view of your project from the get -go. We 
+calculate the live date and then display it for you in easy -to-read graphs and charts. Catch issues faster as 
+you monitor time, costs and more.  
+ 
+ 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+21 
+ 3. Prioritize Risks & Issues  
+Not all risks are created equally. You need to evaluate the risk to know what resources you’re going to 
+assemble towards resolving it when and if it occurs.  
+ 
+Having a large list of risks can be daunting. But you can manage this by simply categorizing risks as high, 
+medium or low. Now there’s a horizon line and you can see the risk in context. With this perspective, you 
+can begin to plan for how and when you’ll address these risks. Then, if risks become issues, it’s advisable to 
+keep an issue log so you can keep track of each of them and implement corrective actions.  
+ 
+Some risks are going to require immediate attention. These are the risks that can derail your project. Failure 
+isn’t an option. Other risks are important, but perhaps do not threaten the success of your project. You can 
+act accordingly. Then there are those risks that have little to no impact on the overall project’s schedule and 
+budget. Some of these low -priority risks might be important, but not enough to waste time on.  
+ 
+4. Assign an Owner to the Risk  
+All your hard work identifying and evaluating risk is for naught if you don’t assign someone to oversee the 
+risk. In fact, this is something that you should do when listing the risks. Who is the person who is 
+responsible for that risk, identifying it when and if it should occur and then leading the work toward 
+resolving it?  
+ 
+That determination is up to you. There might be a team member who is more skilled or experienced in the 
+risk. Then that person should lead the charge to resolve it. Or it might just be an arbitrary choice. Of course, 
+it’s better to assign the task to the right person, but equally important in making sure that every risk has a 
+person responsible for it.  
+ 
+Think about it. If you don’t give each risk a person tasked with watching out for it, and then dealing with 
+resolving it when and if it should arise, you’re opening yourself up to more risk. It’s one thing to identify 
+risk, but if you don’t manage it, then you’re not protecting the project.  
+ 
+5. Respond to the Risk  
+Now the rubber hits the road. You’ve found a risk. All that planning you’ve done is going to be put to use. 
+First, you need to know if this is a positive or negative risk. Is it something you could exploit for the 
+betterment of the project? If not you need to deploy a risk mitigation strategy.  
+ 
+A risk mitigation strategy is simply a contingency plan to minimize the impact of a project risk. You then act 
+on the risk by how you prioritize it. You have communications with the risk owner and, together, decide on 
+which of the plans you created to implement to resolve the risk.  
+ 
+6. Monitor the Risk  
+You can’t just set forces against risk without tracking the progress of that initiative. That’s where the 
+monitoring comes in. Whoever owns the risk will be responsible for tracking its progress toward resolution. 
+However, you’ll need to stay updated to have an accurate picture of the project’s overall progress to identify 
+and monitor new risks.  
+ 
+Whatever you choose to do, remember to always be transparent. It’s best if everyone in the project knows 
+what is going on, so they know what to be on the lookout for and help manage the process.  
+ 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+22 
+ In the video below, Jennifer Bridges, professional project manager (PMP) dives deeper into the steps in the 
+risk management process.  
+ 
+ 
+EXAMPLES OF RISKS & RISK MANAGEMENT STRATEGIES  
+1. Construction Risk Management  
+Construction projects are inherently risky. Numerous potential hazards can impact safety, timelines and 
+budgets. Construction risks may be related to finances, safety, schedules, environment, design or contracts.  
+ 
+The risk: If there are material delivery issues, design changes, labor shortages or bad weather, it may result 
+in a schedule risk. This uses additional resources and can delay the timeline.  
+Risk management strategy: One example of a construction risk management strategy is contingency 
+planning and creating a schedule with realistic buffer time. Project managers can use critical path analysis to 
+identify key dependencies and monitor the schedule for any updates. If there are potential delays, a 
+contingency plan can help mitigate them.  
+2. Manufacturing Risk Management  
+Manufacturing projects range from setting up a new production line to launching a new product. Risk 
+management can help minimize disruptions and improve profitability.  
+ 
+The risk: Production risks such as equipment failures, production line downtime or quality control issues can 
+cause the project to be delivered late or at a lower quality than expected.  
+Risk management strategy: Quality control procedures such as implementing preventive maintenance 
+programs can help ensure that production risks don’t disrupt the process. This is an example of a risk 
+mitigation strategy. Employees should receive ongoing training and development to help spot equipment 
+failures before they snowball into something more serious.  
+ 
+3. IT Risk Management  
+IT projects are known for their complexity and rapid pace. Risk management in IT can help maximize the 
+return on investment and minimize disruptions.  
+ 
+The risk: Technical risks such as integration issues, technology failures or performance problems may result 
+in throwing the project off schedule and using more resources than originally planned.  
+ 
+Risk management strategy: To avoid technical risks, the IT project manager can implement contingency 
+planning such as thorough technology assessments and testing before the project kicks off. They may also 
+utilize industry best practices and expert technical resources to ensure any performance issues are addressed 
+as quickly as possible.  
+ 
+4. Marketing Risk Management  
+From rebranding a product to launching a new campaign, marketing projects are subject to risks that can 
+impact their success.  
+ 
+The risk: There’s a new creative marketing campaign being launched that has the potential to fail to resonate 
+with the target audience. This would waste significant time and resources.  
+Risk management strategy: To avoid creative concepts failing, the marketing project manager and team can 
+conduct rigorous creative testing and feedback loops to ensure they understand their audience. If changes are 
+needed before launch, the team can implement the strategy accordingly.  
+ 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+23 
+ LEADERSHIP AND ETHICS IN PROJECTS  
+Leadership and ethics in projects are crucial for success, involving guiding principles like honesty, 
+responsibility, fairness, and respect to build trust, ensure transparency, and foster a positive environment, 
+with ethical leaders modeling integrity to inspire teams, make sound decisions, and navigate dilemmas, 
+ultimately leading to better project outcomes and a stronger organizational culture.  
+ 
+WHAT IS ETHICAL LEADERSHIP AND WHY IS IT IMPORTANT?   
+Ethical leadership involves leaders and managers making decisions based on the right thing to do for the 
+common good, not just based on what is best for themselves or for the bottom line.  
+ 
+While profits are important, ethical leaders take into consideration the needs of customers, communities, and 
+employees in addition to company growth and revenue when making business decisions.  
+ 
+Ethical leaders encourage their team members to model this behavior, too. They help to build a workplace 
+culture that values transparency, collaboration and inclusion, and where everyone feels safe to share their 
+voice.  
+ 
+They can also help organizations recruit and retain top talent. Professionals are increasingly seeking out 
+companies whose leaders strive to do the righ t thing. generation Z, who will make up 25 percent of the 
+workforce by 2025, demands leadership ethics more than generations that came before them.  
+ 
+“Gen Z is not going to negotiate. They have really strong values and ethics, and they don’t bend them 
+because of intimidation or because they are just getting a paycheck,” said Michael McCarthy, instructor at 
+Harvard Division of Continuing Education’s Professional & Executive Development and host of the “Happy 
+at Work” podcast. “The idea of letting harmful or hurtful behavior slide is not acceptable.”  
+ 
+Leaders who weigh ethical considerations before making key business decisions drive a company’s long -
+term success.  
+ 
+THE 6 MAIN PRINCIPLES OF ETHICAL LEADERSHIP  
+1. Respect  
+Respect includes valuing others’ skills and contributions. While historically respect in the workplace may 
+have been one -way (leaders demanding respect from employees), in an ethical work environment, respect is 
+mutual.  
+ 
+Mutual respect leads to healthier workplace relationships where both sides appreciate and support what the 
+other is doing and feel secure in talking through issues and challenges. Healthy relationships create positive 
+work environments, which drives increased productivity.  
+ 
+Current and upcoming business leaders should take mutual respect into account as workforce expectations 
+continue to shift.   
+ 
+“I tell current leadership to respect Gen Z. They have values and morals, and you’re going to have a better 
+organization because of them,” McCarthy said. “They aren’t going to put up with the old hierarchy that 
+doesn’t offer mutual respect.”  
+ 
+ 
+ 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+24 
+ 2. Accountability  
+Ethical leaders hold themselves accountable for their actions. They make decisions based on integrity and 
+stand behind their work. They also lead by example, communicate openly about challenges, and don’t look 
+to place blame on others for any shortfalls.  
+ 
+3. Service  
+Leaders make ethical decisions based on doing what is right for employees, customers, and the community. 
+Because these constituents are always top of mind for ethical leaders, they often have a strong sense of 
+service. They engage in activities such as charitable giv ing and volunteer work to give back to their 
+communities — and encourage their teams to do the same.  
+ 
+4. Honesty  
+Leaders who are transparent build trust amongst their organizations and amongst customers.   
+To build and maintain trust, leaders must be good communicators who speak openly and honestly about 
+issues. Regardless of the issue’s severity or unpopularity, leaders’ responsibility to be clear and candid 
+empowers others to make the right decisions with the information they have. Honesty and transparency also 
+help to build a brand’s reputation, leading to long -term customer loyalty.  
+ 
+5. Justice  
+Justice is not just about following the law, but about ensuring that everyone is getting what they deserve. 
+Ethical leaders approach situations with a focus on treating everyone fairly, and they expect their teams to 
+treat each other and customers the same way. Through their actions, they build equitable work environments 
+where everyone feels respected.  
+ 
+6. Community  
+Ethical leaders view their companies as communities and consider everyone involved when evaluating 
+situations and making decisions. By viewing their organizations this way, they build equity and inclusion 
+into their decision -making process and create work environments that encourage collaboration across teams.  
+ 
+Topic Six:  
+PROJECT QUALITY MANAGEMENT  
+The purpose of project quality management is to ensure that the project will satisfy  the needs for which it 
+was undertaken. Project quality management involves three main processes:  
+  
+1. Planning quality management includes identifying which quality  requirements and standards are relevant 
+to the project and how to satisfy  them. Incorporating quality standards into project design is a key part of  
+quality planning. For an IT project, quality standards might include allowing  for system growth, planning a 
+reasonable response time for a system, or  ensuring that the system produces consistent and accurate 
+information.  Quality standards can also apply to IT services. For example, you can set  standards for how 
+long it should take to get a reply from a help desk or how  long it should take to ship a replacement part for a 
+hardware item unde r warranty. The main outputs of planning quality management are a quality  management 
+plan, quality metrics, project management plan updates,  and project documents updates. A metric is a 
+standard of measurement.  Examples of common metrics include failure rates of products, availability of  
+goods and services, and customer satisfaction ratings.  
+ 
+2. Managing quality involves translating the q uality management plan into exe cutable quality activities. 
+These activities must adhere to the organization's  quality policies. The main outputs of this process are 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+25 
+ quality reports, test and  evaluation documents, change requests, project management plan updates,  and 
+project documents updates.  
+ 
+3. Controlling quality involves monitoring specific project results to ensure that  they are complete, correct, 
+and meet customer expectations. This process is  often associated with the technical tools and techniques of 
+quality manage ment, such as Pareto charts, quality control charts, and statistical sampling.  
+You will learn more about these tools and techniques later in this chapter.  The main outputs of quality 
+control include quality control measurements,  verified deliverables, work performance information, change 
+requests, project  management plan updates, and project documents updates   
+ 
+Topic Seven:  
+PROJECT SCHEDULING  
+Project scheduling is the process of mapping out a project's tasks, resources, and timelines to create a 
+detailed roadmap for successful, on -time delivery, involving defining activities, setting durations, 
+identifying dependencies, and allocating people/materials, often visualized with tools like Gantt charts to 
+track progress and manage issues like bottlenecks. It's crucial for communication, resource allocation, and 
+ensuring goals align with deadlines.  
+ 
+Project scheduling techniques are essential tools for organizing, planning and managing tasks efficiently . 
+ 
+Key Components of a Project Schedule  
+Tasks/Activities : The specific work to be done.  
+Sequence & Dependencies : The order tasks must be completed in, and which tasks rely on others.  
+Duration : Estimated time for each task.  
+Resources : People, equipment, and budget needed.  
+Milestones : Key checkpoints or significant events in the project.  
+Start/End Dates : Planned dates for tasks and the overall project.  
+ 
+Common Scheduling Techniques & Tools  
+Gantt Charts : Visual bar charts showing task timelines.  
+Critical Path Method (CPM) : Identifies the longest sequence of tasks (the critical path) that determines the 
+project's minimum duration.  
+PERT Charts : Uses probabilistic time estimates (optimistic, pessimistic, most likely).  
+Software : Tools like monday.com, Wrike, Asana, Trello help manage complex schedules.  
+ 
+Benefits  
+Visibility : Provides a clear overview of the entire project.  
+Communication : Helps everyone understand roles, responsibilities, and timelines.  
+Proactive  Management : Allows managers to spot potential delays and resource conflicts early.  
+Goal Alignment : Keeps the team focused on delivering on time and within scope.  
+ 
+The Scheduling Process  
+Define Scope & WBS : Understand the project goals and break work into a Work Breakdown Structure 
+(WBS).  
+Sequence Activities : Determine dependencies.  
+Estimate Durations & Resources : Assign time and resources to tasks.  
+Develop Schedule : Use techniques (like CPM, Gantt) to build the timeline.  
+Monitor & Contro l: Track progress, compare actuals to the plan, and make adjustments as needed.  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+26 
+  
+1. CRITICAL PATH METHOD (CPM)  
+The critical path method (CPM) is a project scheduling technique that identifies the longest sequence of 
+dependent tasks. It uses a network diagram and mathematical calculations to estimate the total duration of a 
+project. By determining the critical path, project managers can identify which tasks cannot be delayed 
+without affecting the project deadline. CPM helps highlight float time for non -critical tasks, making it easier 
+to prioritize and reallocate resources when needed.  
+ 
+When to Use This Project Scheduling Technique?  
+CPM is widely used in industries like construction, engineering and software development, where task 
+dependencies and deadlines are critical. This project scheduling technique is most useful in large -scale 
+projects involving multiple activities with interrelated timelines. It’s ideal when you need to manage 
+complex workflows, optimize timelines or analyze the impact of delays. CPM is also effective during 
+project planning and monitoring stages, where detailed time estimates and schedule adjustments are 
+frequently needed.  
+ 
+Benefits of This Project Scheduling Technique  
+The critical path method offers several advantages that help project managers stay organized and on 
+schedule. Below are some key benefits of using this project scheduling technique and how each contributes 
+to more effective project management.  
+ 
+1. Helps Prioritize Tasks : CPM highlights which tasks are critical and which have float time, allowing 
+project managers to focus efforts where delays would affect the overall timeline. This clarity 
+improves decision -making and ensures key milestones receive proper attention throughout execution.  
+2. Facilitates Resource Scheduling : CPM supports more efficient resource allocation by identifying 
+task dependencies and durations. It allows project managers to assign team members, equipment and 
+materials based on when they’re needed most, reducing idle time and improving productivity across 
+the board.  
+3. Helps Accurately Estimate the Duration of Projects Before They Start:  CPM uses network 
+diagrams and time estimates to calculate the total project duration. This mathematical approach 
+allows for precise scheduling, enabling better forecasting and helping stakeholders set realistic 
+expectations for completion dates and deliverable timelines.  
+ 
+Disadvantages of This Project Scheduling Technique  
+1. Mathematical Calculations Can Be Hard to Grasp : CPM requires familiarity with network logic 
+and formulas, which can be difficult for some team members. Misunderstandings or calculation 
+errors can lead to incorrect timelines, poor planning and confusion about task priorities or resource 
+assignments.  
+2. CPM Diagrams Can Become Overly Complex : In large projects, the number of tasks and 
+dependencies can make the network diagram overwhelming. Managing updates or analyzing changes 
+becomes time -consuming, especially if the project undergoes frequent adjustments or has unclear 
+task relationships.  
+3.    Effectiveness Depends on Accurate Inputs : CPM’s reliability hinges on the accuracy of task 
+durations and dependencies. If initial data is flawed or overly optimistic, the resulting schedule may be 
+misleading, causing issues with deadlines, budgets and stakeholder trust down the line.  
+ 
+ 
+ 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+27 
+ 2. PROGRAM EVALUATION AND REVIEW TECHNIQUE (PERT)  
+The program evaluation and review technique (PERT) is a project scheduling method that helps estimate a 
+project’s duration by analyzing the time required to complete each task. It uses a network diagram and 
+mathematical calculations based on optimistic, pessimistic and most likely time estimates. PERT is designed 
+to deal with uncertainty in project timelines and is especially useful in planning and analyzing the time 
+required for tasks with variable durations. It helps improve forecasting and risk assessment in project 
+planning.  
+ 
+When to Use This Project Scheduling Technique?  
+PERT is most commonly used in research, development and engineering projects where task durations are 
+uncertain or variable. This project scheduling technique is ideal for complex, non -repetitive projects in 
+industries like aerospace, defense and technology. It’s especially valuable when you need to forecast project 
+timelines early, even when data is limited or unpredictable. PERT is also helpful during feasibility studies or 
+when project managers want to analyze how different time scenarios affect overall project completion dates.  
+ 
+Benefits of This Project Scheduling Technique  
+PERT offers a flexible scheduling method ideal for projects with unpredictable elements. Factoring in time 
+variability and focusing on task sequences helps project managers better anticipate risks and plan around 
+uncertainty.  
+ 
+1. Attempts to Provide a Realistic Time Estimation for Tasks : PERT uses three time estimates —
+optimistic, pessimistic and most likely —to calculate a weighted average. This provides a more 
+nuanced and realistic forecast than single -point estimates, especially in complex or research -based 
+projects.  
+2. Ideal for Projects with Uncertain Conditions : Because it embraces variability, PERT is well -suited 
+for projects with undefined scopes, evolving requirements or new technologies. It allows teams to 
+prepare for delays and better manage scheduling risks from the outset.  
+3. Helps Identify Task Dependencies and Task Sequences:  PERT charts visually map task 
+relationships and dependencies to help managers spot which tasks influence overall project duration 
+and support smarter sequencing and prioritization decisions.  
+ 
+Disadvantages of This Project Scheduling Technique  
+While PERT helps with planning under uncertainty, it has limitations in practical execution. It requires 
+manual updates, offers limited real -time control and relies heavily on estimators’ assumptions, which can 
+weaken scheduling accuracy.  
+ 
+1. Time Estimations Are Subjective : PERT depends on team members’ ability to guess best -case and 
+worst -case durations. If these estimates are unrealistic or biased, the schedule becomes unreliable 
+and can misguide planning decisions.  
+2. PERT Charts Need to Be Manually Updated:  Unlike dynamic scheduling tools, PERT diagrams 
+must be revised manually when task durations change or new dependencies arise, making the process 
+time-consuming in active projects.  
+3.  Not Ideal for Project Monitoring and Control : PERT is more of a planning tool than a tracking 
+system. It lacks mechanisms for real -time updates, progress tracking or integration with cost and 
+resource data, limiting its usefulness during execution.  
+ 
+ 
+ 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+28 
+ 3. FAST TRACKING  
+Fast tracking is a schedule compression technique used when a project falls behind and corrective actions 
+are needed to meet deadlines. It involves performing tasks in parallel that were originally planned to be 
+sequential. While it doesn’t reduce the scope of work, it helps recover lost time by overlapping activities 
+wherever possible. This technique can accelerate project timelines, but it increases the risk of rework and 
+demands strong coordination to avoid conflicts or quality issues.  
+ 
+When to Use This Project Scheduling Technique?  
+Fast tracking is commonly used in industries with tight deadlines, such as construction, software 
+development and event planning. It’s especially helpful when projects are delayed but the final delivery date 
+must remain unchanged. It suits projects with clearly defined dependencies and teams that can handle 
+overlapping tasks efficiently. Fast tracking is also useful during design -build phases or product launches, 
+where compressing the schedule without cutting scope is critical for meeting regulatory, seasonal or market -
+driven deadlines.  
+ 
+Below is a fast -tracking example of a residential construction project. Each bar represents a task that must be 
+completed. One task must finish before the rest can begin.  
+ 
+Residential construction project fast tracking example, a project scheduling technique  
+To fast -track the project, tasks must be executed in parallel. This is possible only for tasks that don’t have a 
+dependency, such as wood framing or sheathing installation. However, tasks like roofing work cannot be 
+fast-tracked, as a roof cannot be put on a structure without walls. The image below represents the fast -
+tracked project with shorter task durations on tasks when possible.  
+ 
+Benefits of This Project Scheduling Technique  
+Fast tracking is a popular choice for accelerating schedules when time is tight. It helps reduce project 
+duration without increasing resources or changing scope. Below are three key benefits of using this project 
+scheduling technique.  
+ 
+1. Accelerates Project Delivery : Fast tracking shortens timelines by overlapping dependent tasks. 
+Instead of waiting for one task to finish before starting another, teams work in parallel, helping the 
+project finish faster while keeping the full scope intact.  
+2. Avoids Overtime Costs : Rather than extending work hours, fast tracking compresses the schedule 
+through smarter sequencing. This minimizes the need for overtime or weekend labor, helping reduce 
+additional payroll expenses while catching up on delays.  
+3. No Additional Budget Needed Initially : Because fast tracking rearranges task order without adding 
+staff or scope, it often doesn’t require an immediate increase in budget. It’s a time -saving option that 
+can be implemented quickly using existing team capacity.  
+ 
+Disadvantages of This Project Scheduling Technique  
+While fast -tracking helps speed up projects, it has trade -offs that can affect quality, resources and overall 
+coordination. Here are some common drawbacks associated with this technique.  
+ 
+Increases Risk of Rework: Overlapping tasks can lead to rework if earlier tasks are revised after their 
+successors have already started. This adds unexpected delays and costs, potentially canceling the original 
+time savings.  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+29 
+ May Strain Resources: Fast tracking can overload teams or equipment by requiring multiple activities to run 
+simultaneously. Without careful resource planning, it may result in burnout, bottlenecks or unproductive 
+downtime.  
+Not Suitable for All Tasks: Some tasks have hard dependencies and can’t be performed in parallel. Trying to 
+fast-track these may cause confusion, safety risks or compliance issues that harm project execution.  
+ 
+4. PROJECT CRASHING  
+Project crashing is a schedule compression technique used when a project is delayed and immediate 
+corrective action is required. It involves allocating additional resources —such as labor, equipment, or 
+budget —to tasks on the critical path to reduce their duration. While this method speeds up project 
+completion, it typically increases project costs. Crashing is often used when deadlines are non -negotiable, 
+and other options like fast tracking are not feasible. It requires careful analysis to ensure cost trade -offs are 
+justified.  
+ 
+When to Use This Project Scheduling Technique?  
+Project crashing is typically used in deadline -driven industries such as construction, engineering, event 
+planning and manufacturing. It’s most useful when a project has fallen behind schedule and must meet a 
+fixed deadline due to contractual obligations, regulatory requirements or financial penalties. Crashing is 
+ideal for projects with budget flexibility, clearly defined critical paths and tasks that can benefit from extra 
+labor or resources. It should be considered when speed is more important than maintaining the original cost 
+baseline.  
+ 
+Benefits of This Project Scheduling Technique  
+Project crashing can be a useful method to recover lost time. It allows teams to meet tight deadlines without 
+changing project scope, especially when schedule is a higher priority than cost.  
+ 
+1. Recovers Delayed Schedules Quickly : Crashing shortens the overall project duration by adding 
+resources to critical path tasks. It’s particularly effective when deadlines are at risk and no float 
+remains, allowing project teams to regain lost time without reducing the scope of work.  
+2. Maintains Project Scope : Unlike other time -saving strategies that cut deliverables, crashing keeps 
+the full scope intact. Teams can meet fixed deadlines while maintaining all project requirements, 
+making it ideal for high -visibility or regulated projects where scope reduction would compromise 
+quality or contractual compliance.  
+3. Protects Against Late Penalties : When delays trigger financial penalties, legal consequences, or 
+client dissatisfaction, crashing becomes a useful tool. By accelerating critical tasks, teams can avoid 
+costly overruns, fulfill contractual deadlines, and preserve client relationships without altering scope 
+or sacrificing quality deliverables.  
+ 
+Disadvantages of This Project Scheduling Technique  
+While project crashing can save time, it has trade -offs. The method often increases costs, puts pressure on 
+resources and is only useful for tasks on the critical path.  
+ 
+1. Increases Project Costs Significantly : Crashing often requires additional labor, expedited materials, 
+or specialized equipment to reduce task durations. These accelerated efforts significantly increase the 
+project’s overall cost, making crashing a financially intensive option that should only be used when 
+the deadline justifies the extra investment.  
+2. Can Lead to Team Burnout : Overloading existing team members or rapidly  on boarding new staff 
+to meet compressed timelines can lead to burnout, confusion or communication issues. If not 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+30 
+ properly managed, these pressures may reduce productivity, lower morale and negatively affect long -
+term team performance.  
+3. Not Always Effective on All Tasks : Project crashing only impacts tasks on the critical path. 
+Applying it to non -critical activities doesn’t reduce the project duration and wastes resources. 
+Therefore, it must be applied selectively and strategically to be cost -effective and schedule -relevant.  
+ 
+5. MILESTONE CHARTS  
+Milestone charts are visual project scheduling tools that highlight key events or deliverables along a 
+timeline. Unlike detailed Gantt charts, they simplify complex schedules by focusing only on major 
+checkpoints. This makes them ideal for presenting project progress to stakeholders or executives who need a 
+high-level overview. Milestone charts don’t show task durations or dependencies but offer clarity by 
+tracking critical phases, approvals and deadlines that define overall project progress.  
+ 
+When to Use This Project Scheduling Technique?  
+Milestone charts are best used in projects where stakeholders need quick, high -level updates. They’re 
+common in industries like construction, product development, and consulting, especially when executive 
+reporting or client presentations are involved. This technique is useful during the early planning phase, for 
+phase -gate reviews, or to track major deliverables in long -term projects. It’s ideal when full task -level detail 
+is unnecessary, but visibility into major deadlines is critical.  
+ 
+Benefits of This Project Scheduling Technique  
+Milestone charts offer a clean, simplified view of project progress. They’re especially helpful when 
+reporting to executives or clients who need clarity without the clutter of task -level details.  
+ 
+1. Simplifies Complex Project Timelines : Milestone charts focus only on major events, helping teams 
+and stakeholders understand project progress at a glance without diving into every task or 
+dependency. This streamlines communication and reduces confusion in complex or large -scale 
+projects.  
+2. Improves Stakeholder Communication : These charts are ideal for status reporting. Their simplicity 
+makes it easy for non -technical stakeholders to track deadlines and phase completions, enabling 
+clearer conversations around project expectations, timing and progress.  
+3. Helps Track Key Deliverables : Milestone charts keep attention on important goals, approvals and 
+deadlines. They’re useful for managing contracts, product launches or gated reviews where meeting 
+specific milestones is critical to project success or payment schedules.  
+ 
+Disadvantages of This Project Scheduling Technique  
+1. Despite their clarity, milestone charts have limitations . They don’t show how tasks connect, how 
+long they take or what happens between checkpoints —so they’re best used alongside more detailed 
+scheduling tools.  
+2. Lacks Task -Level Detail : Milestone charts don’t display individual tasks, durations or dependencies. 
+That makes them ineffective for managing daily project work, assigning resources, or tracking 
+incremental progress between major deliverables.  
+3. Not Suitable for Complex Execution : While useful for reporting, milestone charts can’t guide 
+detailed scheduling decisions. Without visibility into task sequences or resource needs, they can’t 
+support day -to-day project management or execution planning.  
+4. Can Oversimplify  Project Status: By omitting task -level data, milestone charts may give a false 
+sense of progress. A milestone might appear “on track” even if the tasks leading to it are delayed or 
+at risk.  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+31 
+  
+6. GANTT CHARTS  
+A Gantt chart is one of the most powerful and widely used tools in project scheduling. It provides a visual 
+timeline of tasks, showing their start and end dates, durations, and progress. Gantt charts allow project 
+managers to link task dependencies, so if one task is delayed, related tasks shift accordingly. They can also 
+identify the critical path, helping teams focus on the activities that directly affect the project’s end date.  
+ 
+In addition to scheduling, Gantt charts support resource management by assigning team members or 
+equipment to specific tasks. Many modern Gantt chart tools also track costs, monitor task progress in real 
+time and adjust timelines based on changes. This makes it possible to integrate time, scope, cost, and 
+resource data into a single visual interface. The result is a smarter, more centralized way to manage complex 
+projects from planning through execution.  
+ 
+When to Use This Project Scheduling Technique?  
+Gantt charts are ideal for projects with many tasks, dependencies, and deadlines. They’re commonly used in 
+industries like construction, IT, product development, and marketing. This technique is especially useful for 
+managing cross -functional teams, coordinating resources, and tracking progress across multiple work  
+streams. Use Gantt charts when visual clarity, timeline accuracy, and detailed planning are essential —
+particularly in long -term or phased projects that require transparency, frequent reporting, and adaptive 
+rescheduling to keep all stakeholders aligned.  
+ 
+Benefits of This Project Scheduling Technique  
+Gantt charts are effective because they centralize planning elements in one view. They allow project 
+managers to visualize progress, adjust in real time and communicate clearly with all stakeholders.  
+ 
+1. Connects Task Dependencies Visually : Gantt charts clearly show how tasks are linked, helping 
+teams understand which activities must be completed before others begin. This improves sequencing, 
+prevents bottlenecks and enables better planning of start and end dates.  
+2. Monitors Progress in Real Time : By updating task bars as work is completed, Gantt charts offer a 
+live view of project progress. This helps managers spot delays quickly and make informed decisions 
+to get back on schedule.  
+3. Combines Scope, Time and Resources : Modern Gantt tools integrate deadlines, assigned team 
+members, budgets and milestones all in one chart. This unified view makes it easier to manage the 
+entire project efficiently without switching between multiple tools.  
+ 
+Disadvantages of This Project Scheduling Technique  
+While Gantt charts are powerful scheduling tools, they can become overly complex in large projects. Their 
+visual clarity can diminish as task volume increases, and they require consistent updates to remain accurate 
+and useful for ongoing project execution.  
+ 
+1. Can Become Cluttered in Large Projects : With too many tasks and dependencies, a Gantt chart can 
+turn into a tangled web that’s hard to read. This limits its effectiveness in programs with hundreds of 
+activities or frequent task changes.  
+2. Requires Frequent Manual Updates:  Without automation, Gantt charts need regular updating to 
+reflect schedule changes, resource shifts or progress. If not maintained properly, they become 
+outdated quickly and can mislead stakeholders.  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+32 
+ 3. Lacks Detail for Day -to-Day Execution : While good for big -picture planning, Gantt charts don’t 
+always show task -level nuances, such as time spent, communication or small blockers. This makes 
+them insufficient as a standalone tool for managing execution in complex, fast -moving projects.  
+ 
+7. PRECEDENCE DIAGRAMMING METHOD (PDM)  
+The precedence diagramming method (PDM) is a visual scheduling technique used in project Management 
+to represent task relationships. It shows the logical sequence of activities using nodes and arrows, where 
+each node is a task and arrows indicate dependencies. PDM supports four dependency types: finish -to-start, 
+start-to-start, finish -to-finish and start -to-finish. This allows project managers to build accurate, flexible 
+project schedules and identify the critical path. PDM is widely supported in modern scheduling tools like 
+Gantt charts.  
+ 
+When to Use This Project Scheduling Technique?  
+PDM is best used in complex projects where task relationships must be clearly defined. It’s widely applied 
+in construction, engineering, IT, and manufacturing. This method is especially useful in projects with 
+overlapping or interdependent activities that require accurate sequencing. Use PDM when multiple 
+dependency types must be managed or when critical path identification is essential for timeline control. It’s 
+ideal for teams using scheduling software and working with strict deadlines, scope requirements or formal 
+project methodologies.  
+ 
+Benefits of This Project Scheduling Technique  
+PDM helps create detailed, logic -based schedules that improve accuracy and control. It’s especially helpful 
+when managing large projects with multiple dependency types and complex timelines.  
+ 
+1. Clarifies Task Relationships : PDM shows how activities connect through visual nodes and arrows, 
+helping teams understand the order of operations. This clarity supports better planning, sequencing, 
+and coordination across all project phases.  
+2. Supports Multiple Dependency Types : Unlike simpler methods, PDM accounts for various 
+relationships, like start -to-start or finish -to-finish. This flexibility makes scheduling more realistic, 
+especially in projects where tasks overlap or need to start concurrently.  
+3. Enables Critical Path Analysis : By mapping out dependencies, PDM helps identify the critical 
+path—the sequence of tasks that directly affect the project’s end date. This allows project managers 
+to focus on key activities and manage risks effectively.  
+ 
+Disadvantages of This Project Scheduling Technique  
+Despite its advantages, PDM can be resource -intensive and may not suit every project. It’s best used with 
+proper tools and trained teams who can handle the level of detail required.  
+ 
+1. Time -Consuming to Create : Building a PDM network requires detailed input on task relationships, 
+durations and logic. This can be time -intensive during the planning phase, especially for large 
+projects with many interdependent activities.  
+2. Requires Specialized Knowledge : To use PDM effectively, teams must understand dependency logic 
+and be comfortable working with scheduling software. Without training, users may misrepresent task 
+flows or overlook important constraints.  
+3. Less Useful for Simple Projects : For small or straightforward projects, PDM may be overkill. The 
+complexity of creating and maintaining a diagram outweighs its benefits when only a handful of 
+tasks or dependencies are involved.  
+ 400 Level Course - CSC 417 – Project Management  @ Crawford University  
+33 
+ 8. ARROW DIAGRAMMING METHOD (ADM)  
+The arrow diagramming method (ADM), also known as the activity -on-arrow (AOA) method, is a project 
+scheduling technique where arrows represent activities and nodes indicate events or milestones. ADM is 
+used to visually sequence tasks and define dependencies between them. It’s one of the earliest scheduling 
+methods and helps identify the critical path by showing task order and duration.  
+ 
+When to Use This Project Scheduling Technique?  
+ADM is best used in projects that follow traditional or linear workflows, such as civil engineering, 
+infrastructure, or manufacturing. It’s suited for teams working with paper -based or legacy systems and for 
+educational purposes when teaching critical path analysis. ADM is helpful when projects require clear 
+milestone tracking and when activities follow a straightforward sequence. While it’s less flexible than 
+modern methods, ADM remains a valid choice for structured, scope -driven projects with well -defined task 
+durations.  
+ 
+Benefits of This Project Scheduling Technique  
+ADM can still offer value for teams looking to visualize activity flow in simple, milestone -driven projects. 
+It’s especially helpful in planning environments that emphasize clarity over flexibility.  
+ 
+1. Visualizes Project Milestones Clearly : ADM emphasizes key events by representing them as nodes. 
+This helps stakeholders and teams understand when major points in the project must be reached and 
+how activities connect between those milestones.  
+2. Simplifies Task Sequences : By focusing on activity order rather than detailed task attributes, ADM 
+makes it easier to visualize sequential workflows —ideal for projects with predictable, step -by-step 
+execution.  
+3. Facilitates Basic Critical Path Analysis : ADM supports identifying the critical path in a clear and 
+logical format. This makes it useful for teaching scheduling fundamentals or managing smaller 
+projects with limited interdependencies.  
+ 
+Disadvantages of This Project Scheduling Technique  
+While ADM has historical significance, it comes with several limitations that make it less practical for 
+complex or dynamic project environments.  
+ 
+1. Limited Dependency Types : ADM only supports finish -to-start relationships. It lacks the flexibility 
+of methods like PDM, which allow for more nuanced dependency modeling, such as start -to-start or 
+finish -to-finish.  
+2. Can Require Dummy Activities : To represent complex task logic, ADM often needs dummy 
+activities —tasks that take no time but must be shown for logic’s sake. These can clutter diagrams 
+and confuse stakeholders.  
+3. Outdated in Modern Software Tools : Most project management platforms now favor PDM. ADM is 
+rarely supported in newer scheduling tools, which can make implementation cumbersome or limit 
+integration with other planning features.  
+ 
+9. ROLLING WAVE PLANNING  
+Rolling wave planning is a project scheduling technique that involves planning work in greater detail as the 
+project progresses. It’s a form of progressive elaboration, where near -term tasks are defined in detail, while 
+future work is kept at a high level until more information becomes available. This allows project teams to 
+adapt to changing conditions, reduce planning rework and maintain flexibility. Rolling wave planning is 
+especially useful in dynamic or evolving projects where detailed foresight isn’t fully possible at the start.  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+34 
+  
+When to Use This Project Scheduling Technique?  
+Rolling wave planning is ideal for projects with uncertain scopes, changing requirements, or iterative 
+phases. It’s frequently used in software development, R&D, or innovation -driven projects where details 
+emerge over time. It also benefits large infrastructure projects planned in phases. Use it when early 
+milestones are known, but later activities require refinement. This technique works well in Agile or hybrid 
+project environments, where flexibility and ongoing updates to the project schedule are critical to success.  
+ 
+Benefits of Using This Project Scheduling Technique  
+Rolling wave planning offers flexibility in uncertain environments. It allows for early execution while 
+giving teams time to develop accurate plans for future tasks.  
+ 
+1. Improves Planning Accuracy Over Time : Instead of guessing details too early, rolling wave 
+planning enables more accurate task definitions when information becomes available. This reduces 
+rework and leads to better resource, cost and duration estimates.  
+2. Supports Flexibility in Dynamic Projects : In rapidly changing projects, this method allows teams to 
+adjust timelines and plans without constant major overhauls. It keeps the overall framework stable 
+while adapting to real -time inputs.  
+3. Enables Early Project Execution : Work can begin on well -understood tasks even while future 
+phases are being planned. This shortens lead times and prevents delays while still allowing room for 
+strategic thinking on long -term goals.  
+ 
+Disadvantages of This Project Scheduling Technique  
+While useful for adaptive planning, rolling wave planning can introduce uncertainty and complexity. It 
+requires strong oversight and ongoing updates to stay effective.  
+ 
+1. Lack of Detail Can Confuse Stakeholders : Future work remains vague until later phases, which can 
+lead to misunderstanding or concern among stakeholders who expect a complete plan from the start.  
+2. Demands Ongoing Planning Effort : Rolling wave planning isn’t a one -time activity. It requires 
+repeated planning sessions, timeline adjustments and team alignment as the project moves forward.  
+3. Challenging to Estimate Overall Timeline : Because later phases aren’t fully defined, it can be 
+difficult to accurately estimate the full project duration or forecast long -term resource needs early on.  
+ 
+10. RESOURCE LEVELING  
+Resource leveling is a project scheduling technique used to resolve resource overall locations by adjusting 
+start and end dates based on availability. When resources such as labor, equipment or budget are overbooked 
+or spread too thin, this method balances workloads across the schedule. Tasks may be delayed or extended, 
+but overallocation is avoided. Resource leveling helps project managers create more realistic timelines and 
+avoid burnout or missed deadlines due to resource shortages, making it essential for long -term planning and 
+execution.  
+ 
+When to Use This Project Scheduling Technique?  
+Resource leveling is most useful when project resources are limited or shared across multiple initiatives. It’s 
+common in construction, IT, consulting, and manufacturing —anywhere resource bottlenecks occur. Use it 
+when team members are overallocated, or when delays are preferable to overworking staff or adding costs. 
+It’s also helpful in portfolio management, where multiple projects compete for the same resources. Leveling 
+is ideal when maintaining quality and avoiding burnout are more important than finishing the project as fast 
+as possible.  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+35 
+  
+Benefits of Using This Project Scheduling Technique  
+Resource leveling improves schedule realism and helps teams avoid overload. It’s especially beneficial in 
+environments with limited personnel or shared equipment.  
+ 
+1. Reduces Resource Overload : By balancing resource demand, this method prevents overuse of 
+individuals or equipment. That reduces the risk of burnout, inefficiency or mistakes caused by 
+excessive multitasking or unrealistic workloads.  
+2. Improves Timeline Accuracy : Leveling aligns project schedules with real -world resource limits, 
+making completion dates more achievable. This leads to better planning, stakeholder trust and fewer 
+last-minute adjustments caused by staffing issues.  
+3. Promotes Sustainable Team Performance: Spreading work load more evenly helps preserve morale, 
+engagement and productivity over time. Teams are less likely to experience stress or turnover due to 
+extended overcommitment.  
+ 
+Disadvantages of This Project Scheduling Technique  
+While resource leveling solves allocation problems, it can extend project timelines and complicate 
+sequencing. It requires careful planning and may not be ideal when speed is the top priority.  
+ 
+1. Can Delay Project Completion : Leveling often requires shifting task start dates to accommodate 
+resource availability, which may push the overall project end date further out.  
+2. Increases Schedule Complexity : Adjusting for resource limits introduces new dependencies or 
+timing gaps that complicate planning. The schedule becomes more difficult to visualize and manage.  
+3. Not Effective in All Project Types: In highly deadline -driven projects, such as regulatory or event -
+based work, delays may be unacceptable. In such cases, leveling may conflict with time constraints.  
+ 
+Possible Questions  
+1. Why is there a new or renewed interest in the field of project management?  
+2. What is a project, and what are its main attributes? How is a project different from what most 
+people do in their day -to-day jobs? What is the triple constraint? What other factors affect a project?  
+3. What is project management? Briefly describe the project management framework, providing 
+examples of stakeholders, knowledge areas, tools and techniques, and project success factors.  
+4. What is a program? What is a project portfolio? Discuss the relationship between projects, 
+programs, and portfolio management and the contributions that each makes to enterprise success.  
+5. What is the role of the project manager? What are suggested skills for all project managers and for 
+IT project managers? Why is leadership so important for project managers? How is the job market 
+for IT project managers?  
+6. Briefly describe some key events in the history of project management. What role do the Project 
+Management Institute and other professional societies play in helping the profession?  
+7. What functions can you perform with project management software? What are the main differences 
+between low -end, midrange, and high -end project management tools?  
+8. Discuss ethical decisions that project managers often face. Do you think a professional code of 
+ethics makes it easier to work in an ethical manner?  
+ 
+1. Which of the following is not a potential advantage of using good project management?  
+a) Shorter development times  
+b) Higher worker morale  
+c) Lower cost of capital  
+d) Higher profit margin  400 Level Course - CSC 417 – Project Management  @ Crawford University  
+36 
+ 2. A ____________ is a temporary endeavor undertaken to create a unique product, service,  
+or result.  
+a) program  
+b) process  
+c) project  
+d) portfolio  
+ 
+3.  Which of the following is not an attribute of a project?  
+a) Projects are unique.  
+b) Projects are developed using progressive elaboration.  
+c) Projects have a primary customer or sponsor.  
+d) Projects involve little uncertainty.  
+ 
+4.____________ is the application of knowledge, skills, tools, and techniques to project activities to meet 
+project requirements.  
+a) Project management  
+b) Program management  
+c) Project portfolio management  
+d) Requirements management  
+ 
+Questions  
+1. Explain the term ‘Project Management’.  
+2. List the core components of Project Management.  
+3. Explain the Critical Path Method (CPM).  
+4. Explain the Programme Evaluation & Review Technique (PERT).  
+5. Differentiate between CPM & PERT.  
+6. Explain the Concept of Break -Even -Analysis (BEA).  
+7. Construct a network diagram.  
+8. What are the elements of project formulation?  
+9. List the stages of project management.

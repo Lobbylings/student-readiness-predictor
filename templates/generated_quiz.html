@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block page_title %}Generated Quiz{% endblock %}
+
+{% block content %}
+<div class="card glass-card fade-up">
+    <p>Answer all questions below based on the uploaded material.</p>
+
+    <form method="POST" action="{{ url_for('submit_generated_quiz') }}">
+        {% for question in questions %}
+        <div class="question-block">
+            <h3>Question {{ loop.index }}</h3>
+            <p class="quiz-question-text">{{ question }}</p>
+            <textarea
+                name="answer_{{ loop.index0 }}"
+                rows="3"
+                class="quiz-answer-box"
+                placeholder="Type your answer here..."
+                required
+            ></textarea>
+        </div>
+        {% endfor %}
+
+        <div style="margin-top: 20px;">
+            <button type="submit" class="btn">Submit Quiz</button>
+        </div>
+    </form>
+</div>
+
+<style>
+.question-block {
+    padding: 18px 0;
+    border-bottom: 1px solid #d7dce5;
+}
+
+.question-block h3 {
+    margin-bottom: 8px;
+    color: #1f3b77;
+    font-size: 1.35rem;
+}
+
+.quiz-question-text {
+    margin-bottom: 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #24344d;
+}
+
+.quiz-answer-box {
+    width: 100%;
+    min-height: 60px;
+    border: 1px solid #cfd7e4;
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-size: 1rem;
+    resize: vertical;
+    outline: none;
+    background: #fff;
+}
+
+.quiz-answer-box:focus {
+    border-color: #1f3b77;
+    box-shadow: 0 0 0 3px rgba(31, 59, 119, 0.10);
+}
+</style>
+{% endblock %}

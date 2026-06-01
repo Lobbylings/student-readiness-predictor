@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Readiness Predictor</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="app-shell">
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
+            ☰
+        </button>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar" id="sidebar">
+
+            <!-- BRAND -->
+            <div class="brand-block">
+                <img
+                    src="{{ url_for('static', filename='srp-logo.svg') }}"
+                    alt="SRP Logo"
+                    class="sidebar-logo"
+                >
+
+                <div>
+                    <h2>Student Readiness</h2>
+                    <p class="sidebar-subtitle">
+                        Predictor System
+                    </p>
+                </div>
+            </div>
+
+            <!-- NAVIGATION -->
+            <nav class="sidebar-nav">
+                <a href="{{ url_for('dashboard') }}">
+                    Dashboard
+                </a>
+
+                <a href="{{ url_for('student_info') }}">
+                    New Assessment
+                </a>
+
+                <a href="{{ url_for('history') }}">
+                    Assessment History
+                </a>
+            </nav>
+
+            <!-- USER INFO -->
+            {% if current_user %}
+            <div class="sidebar-footer">
+
+                <div class="sidebar-user glass-card">
+
+                    <div class="sidebar-user-name">
+                        {{ current_user.full_name }}
+                    </div>
+
+                    <div class="sidebar-user-role">
+
+                        {% if current_user.role == "admin" %}
+                            Administrator
+                        {% else %}
+                            Student Account
+                        {% endif %}
+
+                    </div>
+
+                </div>
+
+                <a href="{{ url_for('logout') }}" class="sidebar-logout">
+                    Logout
+                </a>
+
+            </div>
+            {% endif %}
+
+        </aside>
+
+        <!-- OVERLAY -->
+        <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+
+            <!-- TOPBAR -->
+            <header class="topbar">
+
+                <div>
+
+                    <h1 class="topbar-title">
+                        {% block page_title %}
+                            Student Readiness Predictor
+                        {% endblock %}
+                    </h1>
+
+                    <p class="topbar-subtitle">
+                        Serious, explainable, and student-focused academic readiness assessment.
+                    </p>
+
+                </div>
+
+                {% if current_user %}
+                <div class="topbar-actions">
+
+                    <span class="role-badge">
+
+                        {% if current_user.role == "admin" %}
+                            Admin
+                        {% else %}
+                            Student
+                        {% endif %}
+
+                    </span>
+
+                </div>
+                {% endif %}
+
+            </header>
+
+            <!-- PAGE CONTENT -->
+            {% block content %}
+            {% endblock %}
+
+            <!-- FOOTER -->
+            <footer class="site-footer">
+
+                <div class="footer-grid">
+
+                    <div>
+
+                        <h3>
+                            Student Readiness Predictor
+                        </h3>
+
+                        <p>
+                            An explainable academic readiness assessment platform
+                            that combines machine learning, pre-test checks,
+                            and actionable study recommendations.
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <h4>Quick Links</h4>
+
+                        <ul>
+
+                            <li>
+                                <a href="{{ url_for('dashboard') }}">
+                                    Dashboard
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ url_for('student_info') }}">
+                                    New Assessment
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ url_for('history') }}">
+                                    Assessment History
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div>
+
+                        <h4>System Focus</h4>
+
+                        <ul>
+                            <li>Explainable prediction</li>
+                            <li>Pre-test scoring</li>
+                            <li>Assessment history</li>
+                            <li>Student-friendly recommendations</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="footer-bottom">
+
+                    <p>
+                        © 2026 Student Readiness Predictor.
+                        Built for academic assessment and project demonstration.
+                    </p>
+
+                </div>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+    <!-- MOBILE SIDEBAR SCRIPT -->
+    <script>
+
+        const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+
+        const sidebar = document.getElementById("sidebar");
+
+        const sidebarOverlay = document.getElementById("sidebarOverlay");
+
+        if (mobileMenuBtn && sidebar && sidebarOverlay) {
+
+            mobileMenuBtn.addEventListener("click", () => {
+
+                sidebar.classList.toggle("sidebar-open");
+
+                sidebarOverlay.classList.toggle("sidebar-overlay-show");
+
+            });
+
+            sidebarOverlay.addEventListener("click", () => {
+
+                sidebar.classList.remove("sidebar-open");
+
+                sidebarOverlay.classList.remove("sidebar-overlay-show");
+
+            });
+
+        }
+
+    </script>
+
+</body>
+</html>

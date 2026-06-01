@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block page_title %}Assessment Dashboard{% endblock %}
+
+{% block content %}
+<section class="hero-panel glass-card fade-up">
+    <div class="hero-copy">
+        <span class="eyebrow">Explainable Academic Assessment</span>
+        <h2>Track student readiness with structure, clarity, and insight.</h2>
+        <p>
+            This platform combines machine learning prediction, a short pre-test,
+            readiness self-evaluation, and assessment history into one academic workflow.
+        </p>
+
+        <div class="hero-actions">
+            <a href="{{ url_for('student_info') }}" class="btn">Start New Assessment</a>
+            <a href="{{ url_for('history') }}" class="btn btn-secondary">View History</a>
+            <a href="{{ url_for('export_history') }}" class="btn btn-accent">Export Predictions</a>
+            <a href="{{ url_for('upload_material') }}?mode=practice" class="btn btn-accent">
+                Upload Course Material & Take Quiz
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="stats-grid fade-up delay-1">
+    <div class="stat-card glass-card">
+        <span class="stat-label">Total Assessments</span>
+        <h3>{{ stats.total_assessments }}</h3>
+    </div>
+
+    <div class="stat-card glass-card stat-success">
+        <span class="stat-label">Ready Predictions</span>
+        <h3>{{ stats.total_ready }}</h3>
+    </div>
+
+    <div class="stat-card glass-card stat-danger">
+        <span class="stat-label">At Risk Predictions</span>
+        <h3>{{ stats.total_at_risk }}</h3>
+    </div>
+</section>
+
+<section class="dashboard-panels fade-up delay-2">
+    <div class="card glass-card">
+        <h2>System Overview</h2>
+        <p>
+            The Student Readiness Predictor is designed to help students understand their
+            examination preparedness through model-based prediction, pre-test performance,
+            and recommendation-driven feedback.
+        </p>
+
+        {% if stats.latest_record %}
+            <div class="note">
+                <strong>Latest Assessment:</strong>
+                {{ stats.latest_record.full_name }} — {{ stats.latest_record.prediction_text }} — {{ stats.latest_record.created_at }}
+            </div>
+        {% else %}
+            <div class="note">
+                No assessments have been recorded yet. Start a new assessment to begin.
+            </div>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

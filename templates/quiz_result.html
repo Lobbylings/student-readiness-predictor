@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block page_title %}Quiz Result{% endblock %}
+
+{% block content %}
+<div class="card glass-card fade-up">
+    <h2>Quiz Result</h2>
+
+    {% if quiz_mode == "practice" %}
+        <p>The system has marked your answers and generated feedback from your uploaded material.</p>
+    {% else %}
+        <p>The system has marked your answers and generated feedback. Continue to the final readiness prediction.</p>
+    {% endif %}
+
+    <div class="score-box">
+        <h3>Your Quiz Score: {{ score }}%</h3>
+    </div>
+
+    <div class="section-block">
+        <h3>🧠 Performance Insight</h3>
+        <div class="analysis-box">
+            <p>{{ analysis }}</p>
+        </div>
+    </div>
+
+    <div class="section-block">
+        <h3>Question-by-Question Feedback</h3>
+
+        {% for item in graded_results %}
+        <div class="feedback-card">
+            <h4>Question {{ loop.index }}</h4>
+            <p><strong>Question:</strong> {{ item.question }}</p>
+            <p><strong>Your Answer:</strong> {{ item.student_answer }}</p>
+            <p><strong>Expected Answer:</strong> {{ item.expected_answer }}</p>
+            <p><strong>Score:</strong> {{ item.score }}/10</p>
+            <p><strong>Verdict:</strong> {{ item.verdict }}</p>
+            <p><strong>Feedback:</strong> {{ item.feedback }}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="section button-row">
+    {% if practice_mode %}
+        <a href="{{ url_for('dashboard') }}" class="btn">Back to Dashboard</a>
+        <a href="{{ url_for('upload_material') }}?mode=practice" class="btn btn-secondary">Take Another Practice Quiz</a>
+    {% else %}
+        <a href="{{ url_for('final_prediction') }}" class="btn">Continue to Final Prediction</a>
+    {% endif %}
+</div>
+</div>
+
+<style>
+.score-box {
+    margin-top: 18px;
+    margin-bottom: 24px;
+    padding: 22px;
+    border-left: 6px solid #1f3b77;
+    background: #f7f9fc;
+    border-radius: 16px;
+}
+
+.section-block {
+    margin-top: 28px;
+}
+
+.analysis-box {
+    background: #f8fafc;
+    border: 1px solid #d8e0ea;
+    border-radius: 16px;
+    padding: 18px;
+    line-height: 1.7;
+}
+
+.feedback-card {
+    margin-top: 18px;
+    padding: 18px;
+    border: 1px solid #d8e0ea;
+    border-radius: 16px;
+    background: #ffffff;
+}
+
+.feedback-card h4 {
+    margin-bottom: 12px;
+    color: #1f3b77;
+}
+
+.feedback-card p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+</style>
+{% endblock %}

@@ -1,0 +1,28 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="srpGrad" x1="30" y1="20" x2="190" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#162C59"/>
+      <stop offset="1" stop-color="#0D8B7D"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="80" y1="20" x2="140" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6C57A"/>
+      <stop offset="1" stop-color="#D7B56D"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="20" y="20" width="180" height="180" rx="42" fill="url(#srpGrad)"/>
+  
+  <path d="M62 72C62 66.4772 66.4772 62 72 62H108C120.15 62 130 71.8497 130 84V146H82C70.9543 146 62 137.046 62 126V72Z" fill="white" fill-opacity="0.96"/>
+  <path d="M158 72C158 66.4772 153.523 62 148 62H112C99.8497 62 90 71.8497 90 84V146H138C149.046 146 158 137.046 158 126V72Z" fill="white" fill-opacity="0.92"/>
+  
+  <path d="M110 84V146" stroke="#0D8B7D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M77 86H98" stroke="#162C59" stroke-width="4" stroke-linecap="round"/>
+  <path d="M77 100H98" stroke="#162C59" stroke-width="4" stroke-linecap="round"/>
+  <path d="M77 114H98" stroke="#162C59" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M122 86H143" stroke="#162C59" stroke-width="4" stroke-linecap="round"/>
+  <path d="M122 100H143" stroke="#162C59" stroke-width="4" stroke-linecap="round"/>
+  <path d="M122 114H143" stroke="#162C59" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M153 54L159 66L172 68L162 77L164 90L153 84L142 90L144 77L134 68L147 66L153 54Z" fill="url(#goldGrad)"/>
+</svg>

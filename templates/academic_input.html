@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block page_title %}Academic Input{% endblock %}
+
+{% block content %}
+<div class="card glass-card fade-up">
+    <h2>Academic Input</h2>
+    <p class="section-intro">Provide academic preparation indicators for prediction.</p>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    <form method="POST" class="form-grid">
+        <div class="form-group">
+            <label>Study Hours Per Week</label>
+            <input type="number" name="study_hours" min="0" max="40" required>
+            <small>Average number of study hours in a week.</small>
+        </div>
+
+        <div class="form-group">
+            <label>Number of Previous Failures</label>
+            <input type="number" name="failures" min="0" max="10" required>
+            <small>How many relevant courses or tests were previously failed?</small>
+        </div>
+
+        <div class="form-group">
+            <label>Missed Lectures This Semester (Out of 10)</label>
+            <input type="number" name="missed_lectures" min="0" max="10" required>
+            <small>Estimate missed classes from 10 lecture opportunities.</small>
+        </div>
+
+        <div class="form-group">
+            <label>1st Test Score (Out of 20)</label>
+            <input type="number" name="G1" min="0" max="20" required>
+        </div>
+
+        <div class="form-group">
+            <label>2nd Test Score (Out of 20)</label>
+            <input type="number" name="G2" min="0" max="20" required>
+        </div>
+
+        <div class="form-actions full-span">
+            <button type="submit" class="btn">Continue to Pre-Test</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

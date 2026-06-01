@@ -1,0 +1,46 @@
+{% extends "auth_base.html" %}
+
+{% block content %}
+<div class="auth-card auth-animate">
+    <div class="auth-brand">
+        <img src="{{ url_for('static', filename='srp-logo.svg') }}" alt="SRP Logo" class="auth-logo">
+        <p class="auth-label">Create Student Account</p>
+        <h1>Register</h1>
+        <p>Create your account to manage assessments and track readiness records.</p>
+    </div>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    <form method="POST" class="auth-form">
+        <label>Full Name</label>
+        <input type="text" name="full_name" placeholder="Enter full name" required>
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter email" required>
+
+        <label>Matric Number</label>
+        <input type="text" name="matric_number" placeholder="Enter matric number" required>
+
+        <label>Password</label>
+        <div class="password-field">
+            <input type="password" id="registerPassword" name="password" placeholder="Create password" required>
+            <button type="button" class="password-toggle" onclick="togglePassword('registerPassword', this)">Show</button>
+        </div>
+
+        <label>Confirm Password</label>
+        <div class="password-field">
+            <input type="password" id="confirmPassword" name="confirm_password" placeholder="Confirm password" required>
+            <button type="button" class="password-toggle" onclick="togglePassword('confirmPassword', this)">Show</button>
+        </div>
+
+        <button type="submit" class="btn btn-full">Create Account</button>
+    </form>
+
+    <div class="auth-links">
+        <span>Already have an account?</span>
+        <a href="{{ url_for('login') }}">Login</a>
+    </div>
+</div>
+{% endblock %}

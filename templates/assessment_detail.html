@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+
+{% block page_title %}Assessment Detail{% endblock %}
+
+{% block content %}
+<div class="card glass-card fade-up">
+    <h2>Full Assessment Report</h2>
+
+    <div class="result-box">
+        <h3>
+            Prediction:
+            {% if assessment.prediction_text == "Ready" %}
+                <span class="status-badge ready-badge">{{ assessment.prediction_text }}</span>
+            {% else %}
+                <span class="status-badge risk-badge">{{ assessment.prediction_text }}</span>
+            {% endif %}
+        </h3>
+
+        <p><strong>Confidence Score:</strong> {{ assessment.confidence_score }}</p>
+
+        <div class="confidence-wrapper">
+            {% set score = assessment.confidence_score.replace('%', '') | float %}
+            <div class="confidence-bar">
+                {% if assessment.prediction_text == "Ready" %}
+                    <div class="confidence-fill ready-fill" style="width: {{ score }}%;"></div>
+                {% else %}
+                    <div class="confidence-fill risk-fill" style="width: {{ score }}%;"></div>
+                {% endif %}
+            </div>
+        </div>
+
+        <p><strong>Interpretation:</strong> {{ assessment.interpretation }}</p>
+        <p><strong>Overall Insight:</strong> {{ assessment.overall_insight }}</p>
+        <p><strong>Date Saved:</strong> {{ assessment.created_at }}</p>
+    </div>
+
+    <div class="section">
+        <h3>Quiz Performance</h3>
+        <div class="info-grid">
+            <div><strong>Quiz Score:</strong> {{ assessment.quiz_score or 0 }}%</div>
+
+            <div>
+                <strong>Status:</strong>
+                {% if assessment.quiz_score >= 70 %}
+                    <span style="color: green;">Strong understanding detected</span>
+                {% elif assessment.quiz_score >= 40 %}
+                    <span style="color: orange;">Moderate understanding detected</span>
+                {% else %}
+                    <span style="color: red;">Weak understanding detected</span>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    {% if assessment.quiz_analysis %}
+    <div class="section">
+        <h3>Quiz Performance Insight</h3>
+        <div class="analysis-box" style="white-space: pre-line;">
+            {{ assessment.quiz_analysis }}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if confidence_gap_message %}
+    <div class="section">
+        <h3>Confidence vs Actual Performance</h3>
+        <p>{{ confidence_gap_message }}</p>
+    </div>
+    {% endif %}
+
+    <div class="section">
+        <h3>Student Information</h3>
+        <div class="info-grid">
+            <div><strong>Name:</strong> {{ assessment.full_name }}</div>
+            <div><strong>Matric Number:</strong> {{ assessment.matric_number }}</div>
+            <div><strong>Department:</strong> {{ assessment.department }}</div>
+            <div><strong>Level:</strong> {{ assessment.level }}</div>
+            <div><strong>Course Code:</strong> {{ assessment.course_code }}</div>
+            <div><strong>Course Title:</strong> {{ assessment.course_title }}</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Academic Inputs</h3>
+        <div class="info-grid">
+            <div><strong>Study Hours Per Week:</strong> {{ assessment.study_hours }}</div>
+            <div><strong>Previous Failures:</strong> {{ assessment.failures }}</div>
+            <div><strong>Missed Lectures:</strong> {{ assessment.missed_lectures }}</div>
+            <div><strong>1st Test Score:</strong> {{ assessment.g1 }}</div>
+            <div><strong>2nd Test Score:</strong> {{ assessment.g2 }}</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Pre-Test Summary</h3>
+        <div class="info-grid">
+            <div><strong>Pre-Test Score:</strong> {{ assessment.pretest_score }}/5</div>
+            <div><strong>Pre-Test Level:</strong> {{ assessment.pretest_level }}</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Readiness Question Summary</h3>
+        <div class="info-grid">
+            <div><strong>Confidence Level:</strong> {{ assessment.confidence_level }}</div>
+            <div><strong>Revision Status:</strong> {{ assessment.revision_status }}</div>
+            <div><strong>Past Questions Practice:</strong> {{ assessment.past_questions_practice }}</div>
+            <div><strong>Topic Understanding:</strong> {{ assessment.topic_understanding }}</div>
+        </div>
+    </div>
+
+    {% if assessment.factors %}
+    <div class="section">
+        <h3>Top Factors Affecting Prediction</h3>
+        <div class="analysis-box" style="white-space: pre-line;">
+            {{ assessment.factors }}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if assessment.recommendations %}
+    <div class="section">
+        <h3>Recommendations</h3>
+        <div class="analysis-box" style="white-space: pre-line;">
+            {{ assessment.recommendations }}
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="section button-row">
+        <a href="{{ url_for('history') }}" class="btn btn-secondary">Back to History</a>
+        <a href="{{ url_for('reset') }}" class="btn">Start New Assessment</a>
+    </div>
+</div>
+{% endblock %}

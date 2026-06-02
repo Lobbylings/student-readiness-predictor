@@ -37,6 +37,7 @@
 
             <!-- NAVIGATION -->
             <nav class="sidebar-nav">
+                
                 <a href="{{ url_for('dashboard') }}">
                     Dashboard
                 </a>
@@ -56,27 +57,30 @@
 
                 <div class="sidebar-user glass-card">
 
-                    <div class="sidebar-user-name">
-                        {{ current_user.full_name }}
-                    </div>
+                    {% if current_user.profile_image %}
+                        <img
+                            src="{{ url_for('static', filename=current_user.profile_image) }}"
+                            alt="Profile Picture"
+                            class="sidebar-profile-img"
+                        >
+                    {% endif %}
 
-                    <div class="sidebar-user-role">
-
-                        {% if current_user.role == "admin" %}
-                            Administrator
-                        {% else %}
-                            Student Account
-                        {% endif %}
-
-                    </div>
-
+                <div class="sidebar-user-name">
+                    {{ current_user.full_name }}
                 </div>
 
-                <a href="{{ url_for('logout') }}" class="sidebar-logout">
-                    Logout
-                </a>
+                <div class="sidebar-user-role">
+                    {% if current_user.role == "admin" %}
+                        Administrator
+                    {% else %}
+                        Student Account
+                    {% endif %}
+                </div>
 
-            </div>
+                <div class="sidebar-footer-actions">
+                    <a href="{{ url_for('profile') }}" class="sidebar-icon-btn" title="Profile Settings">⚙️</a>
+                    <a href="{{ url_for('logout') }}" class="sidebar-logout">Logout</a>
+                </div>
             {% endif %}
 
         </aside>

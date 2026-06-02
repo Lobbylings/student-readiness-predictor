@@ -185,6 +185,9 @@ def init_db():
             created_at TEXT NOT NULL
         )
     """)
+    ensure_column_exists(conn, "users", "username", "TEXT DEFAULT ''")
+    ensure_column_exists(conn, "users", "phone", "TEXT DEFAULT ''")
+    ensure_column_exists(conn, "users", "profile_image", "TEXT DEFAULT ''")
     ensure_column_exists(conn, "assessments", "quiz_score", "INTEGER DEFAULT 0")
     ensure_column_exists(conn, "assessments", "quiz_analysis", "TEXT DEFAULT ''")
     ensure_column_exists(conn, "assessments", "recommendations", "TEXT DEFAULT ''")
@@ -1242,6 +1245,83 @@ def register():
         return redirect(url_for("dashboard"))
 
     return render_template("register.html")
+
+@app.route("/profile", methods=["GET", "POST"])
+@login_required
+def profile():
+    current_user = get_current_user()
+
+    if not current_user:
+        return redirect(url_for("login"))
+
+    if request.method == "POST":
+        full_name = request.form.get("full_name", "").strip()
+        email = request.form.get("email", "").strip()
+        matric_number = request.form.get("matric_number", "").strip()
+        username = request.form.get("username", "").strip()
+        phone = request.form.get("phone", "").strip()
+
+        conn = get_db_connection()
+
+        profile_image = current_user["profile_image"] if "profile_image" in current_user.keys() else ""
+
+        image = request.files.get("profile_image")
+
+        if image and image.filename:
+            allowed_images = {"png", "jpg", "jpeg", "webp"}
+
+            ext = image.filename.rsplit(".", 1)[1].lower()
+
+            if ext in allowed_images:
+                profile_folder = os.path.join(app.static_folder, "profile_pics")
+                os.makedirs(profile_folder, exist_ok=True)
+
+                filename = secure_filename(f"user_{current_user['id']}.{ext}")
+                image_path = os.path.join(profile_folder, filename)
+
+                image.save(image_path)
+
+                profile_image = f"profile_pics/{filename}"
+
+        conn.execute("""
+            UPDATE users
+            SET full_name = ?,
+                email = ?,
+                matric_number = ?,
+                username = ?,
+                phone = ?,
+                profile_image = ?
+            WHERE id = ?
+        """, (
+            full_name,
+            email,
+            matric_number,
+            username,
+            phone,
+            profile_image,
+            current_user["id"]
+        ))
+
+        conn.execute("""
+            UPDATE assessments
+            SET full_name = ?,
+                matric_number = ?
+            WHERE user_id = ?
+        """, (
+            full_name,
+            matric_number,
+            current_user["id"]
+        ))
+
+        conn.commit()
+        conn.close()
+
+        session["full_name"] = full_name
+        session["user_email"] = email
+
+        return redirect(url_for("profile"))
+
+    return render_template("profile.html", user=current_user)
 
 @app.route("/history")
 def history():

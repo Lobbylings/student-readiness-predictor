@@ -896,3 +896,289 @@ button:hover {
     opacity: 0.75;
     color: #d6d6d6;
 }
+
+/* =========================
+   PROFILE PAGE
+========================= */
+
+.profile-card {
+    max-width: 980px;
+}
+
+.profile-photo-box {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 18px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.7);
+    border: 1px solid var(--border);
+}
+
+.profile-avatar {
+    width: 86px;
+    height: 86px;
+    border-radius: 24px;
+    object-fit: cover;
+    border: 3px solid rgba(13, 139, 125, 0.18);
+    background: white;
+}
+
+.profile-avatar-placeholder {
+    display: grid;
+    place-items: center;
+    font-size: 34px;
+    font-weight: 800;
+    color: white;
+    background: linear-gradient(135deg, var(--primary), var(--teal));
+}
+
+/* =========================
+   CLEANER FOOTER
+========================= */
+
+.site-footer {
+    margin-top: 70px;
+    background: linear-gradient(135deg, #0d1c35, #132b55);
+    color: rgba(255,255,255,0.78);
+    border-radius: 26px 26px 0 0;
+    padding: 28px 26px 14px;
+}
+
+.footer-grid {
+    border-top: none;
+    padding: 0;
+}
+
+.footer-grid h3,
+.footer-grid h4 {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.footer-grid p,
+.footer-grid li,
+.footer-bottom {
+    color: rgba(255,255,255,0.68);
+    font-size: 13px;
+}
+
+.footer-bottom {
+    padding: 16px 0 0;
+    margin-top: 18px;
+    border-top: 1px solid rgba(255,255,255,0.12);
+}
+
+/* =========================
+   BETTER MOBILE STRUCTURE
+========================= */
+
+@media (max-width: 768px) {
+    body {
+        background: #f4f7fb;
+    }
+
+    .main-content {
+        padding: 86px 14px 20px;
+    }
+
+    .topbar {
+        background: rgba(255,255,255,0.82);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 18px;
+        box-shadow: var(--shadow);
+    }
+
+    .topbar-title {
+        font-size: 24px;
+    }
+
+    .topbar-subtitle {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .role-badge {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .hero-panel,
+    .card,
+    .stat-card {
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .hero-panel h2 {
+        font-size: 26px;
+        line-height: 1.18;
+    }
+
+    .hero-panel p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .hero-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .stat-card h3 {
+        font-size: 28px;
+    }
+
+    .filter-form {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .filter-form input,
+    .filter-form select {
+        max-width: 100%;
+    }
+
+    .history-table-wrapper {
+        overflow-x: visible;
+    }
+
+    .history-table,
+    .history-table thead,
+    .history-table tbody,
+    .history-table th,
+    .history-table td,
+    .history-table tr {
+        display: block;
+    }
+
+    .history-table thead {
+        display: none;
+    }
+
+    .history-table tr {
+        background: rgba(255,255,255,0.88);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        margin-bottom: 14px;
+        padding: 14px;
+        box-shadow: 0 10px 22px rgba(17, 34, 68, 0.08);
+    }
+
+    .history-table td {
+        border: none;
+        padding: 9px 0;
+        font-size: 14px;
+    }
+
+    .history-table td:nth-child(1)::before {
+        content: "ID: ";
+        font-weight: 800;
+    }
+
+    .history-table td:nth-child(2)::before {
+        content: "Name: ";
+        font-weight: 800;
+    }
+
+    .history-table td:nth-child(3)::before {
+        content: "Matric Number: ";
+        font-weight: 800;
+    }
+
+    .history-table td:nth-child(4)::before {
+        content: "Course Code: ";
+        font-weight: 800;
+    }
+
+    .history-table td:nth-child(6)::before {
+        content: "Confidence: ";
+        font-weight: 800;
+    }
+
+    .history-table td:nth-child(7)::before {
+        content: "Date: ";
+        font-weight: 800;
+    }
+
+    .action-cell {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .action-cell .btn,
+    .action-cell button {
+        width: 100%;
+    }
+
+    .info-grid,
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-photo-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-avatar {
+        width: 78px;
+        height: 78px;
+    }
+
+    .site-footer {
+        margin-top: 50px;
+        border-radius: 22px 22px 0 0;
+        padding: 24px 18px 12px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .footer-grid p,
+    .footer-grid li,
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
+
+.sidebar-profile-img {
+    width: 58px;
+    height: 58px;
+    border-radius: 18px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid rgba(255,255,255,0.35);
+}
+
+.sidebar-footer-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar-icon-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 16px;
+    display: grid;
+    place-items: center;
+    background: rgba(255,255,255,0.12);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar-icon-btn:hover {
+    background: rgba(255,255,255,0.2);
+}

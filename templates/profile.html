@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block page_title %}Profile Settings{% endblock %}
+
+{% block content %}
+<div class="card glass-card fade-up profile-card">
+    <h2>Profile Settings</h2>
+    <p class="section-intro">
+        Update your account details and profile information.
+    </p>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    <form method="POST" enctype="multipart/form-data" class="form-grid">
+        <div class="profile-photo-box full-span">
+            {% if user.profile_image %}
+                <img src="{{ url_for('static', filename=user.profile_image) }}" alt="Profile Picture" class="profile-avatar">
+            {% else %}
+                <div class="profile-avatar profile-avatar-placeholder">
+                    {{ user.full_name[0]|upper }}
+                </div>
+            {% endif %}
+
+            <div>
+                <label>Profile Picture</label>
+                <input type="file" name="profile_image" accept="image/*">
+                <small>Upload PNG, JPG, JPEG, or WEBP.</small>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" name="full_name" value="{{ user.full_name }}" required>
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" value="{{ user.email }}" required>
+        </div>
+
+        <div class="form-group">
+            <label>Matric Number</label>
+            <input type="text" name="matric_number" value="{{ user.matric_number }}" required>
+        </div>
+
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" name="username" value="{{ user.username or '' }}" placeholder="Optional username">
+        </div>
+
+        <div class="form-group">
+            <label>Phone Number</label>
+            <input type="text" name="phone" value="{{ user.phone or '' }}" placeholder="Optional phone number">
+        </div>
+
+        <div class="form-actions full-span">
+            <button type="submit" class="btn">Save Profile</button>
+            <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">Back to Dashboard</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

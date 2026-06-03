@@ -1182,3 +1182,115 @@ button:hover {
 .sidebar-icon-btn:hover {
     background: rgba(255,255,255,0.2);
 }
+
+/* =========================
+   FINAL MOBILE UI PATCH
+========================= */
+
+@media (max-width: 768px) {
+    .mobile-menu-btn {
+        top: 22px;
+        left: 22px;
+        width: 48px;
+        height: 48px;
+        border-radius: 16px;
+    }
+
+    .main-content {
+        padding: 96px 14px 22px;
+    }
+
+    .topbar {
+        margin-left: 0;
+        padding-top: 70px;
+    }
+
+    .hero-actions {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+        padding: 13px 10px;
+        font-size: 13px;
+        text-align: center;
+        line-height: 1.3;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .stat-card {
+        padding: 16px 10px;
+        min-height: 110px;
+    }
+
+    .stat-label {
+        font-size: 11px;
+        line-height: 1.3;
+    }
+
+    .stat-card h3 {
+        font-size: 24px;
+    }
+
+    .hero-panel h2 {
+        font-size: 24px;
+    }
+
+    .hero-panel p {
+        font-size: 13px;
+    }
+
+    .card h2 {
+        font-size: 24px;
+    }
+
+    .filter-form {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .filter-form input,
+    .filter-form select,
+    .filter-form .btn,
+    .filter-form button {
+        width: 100%;
+        max-width: 100%;
+        font-size: 13px;
+        padding: 13px 10px;
+    }
+
+    .filter-form input,
+    .filter-form select {
+        grid-column: 1 / -1;
+    }
+
+    .site-footer {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 430px) {
+    .stats-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .stat-card {
+        padding: 14px 8px;
+    }
+
+    .stat-label {
+        font-size: 10px;
+    }
+
+    .stat-card h3 {
+        font-size: 22px;
+    }
+
+    .hero-actions {
+        grid-template-columns: 1fr 1fr;
+    }
+}
